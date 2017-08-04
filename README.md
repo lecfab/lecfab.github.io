@@ -1,9 +1,8 @@
 # Hyde
 
-Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+Hyde is a [Jekyll](http://jekyllrb.com) based on [Poole](http://getpoole.com).
 
-![Hyde screenshot](https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png)
-
+<img src="https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png" width=400 alt="Hyde screenshot">
 
 ## Contents
 
@@ -67,7 +66,7 @@ By default Hyde ships with a sidebar that affixes it's content to the bottom of 
 
 Hyde ships with eight optional themes based on the [base16 color scheme](https://github.com/chriskempson/base16). Apply a theme to change the color scheme (mostly applies to sidebar and links).
 
-![Hyde in red](https://f.cloud.github.com/assets/98681/1831229/42b0b354-7384-11e3-8462-31b8df193fe5.png)
+<img src="https://f.cloud.github.com/assets/98681/1831229/42b0b354-7384-11e3-8462-31b8df193fe5.png" width=400 alt="Hyde red">
 
 There are eight themes available at this time.
 
@@ -85,7 +84,7 @@ To create your own theme, look to the Themes section of [included CSS file](http
 
 ### Reverse layout
 
-![Hyde with reverse layout](https://f.cloud.github.com/assets/98681/1831230/42b0d3ac-7384-11e3-8d54-2065afd03f9e.png)
+<img src="https://f.cloud.github.com/assets/98681/1831230/42b0d3ac-7384-11e3-8d54-2065afd03f9e.png" width=400 alt="Hyde reverse">
 
 Hyde's page orientation can be reversed with a single class.
 
@@ -104,15 +103,9 @@ Hyde has two branches, but only one is used for active development.
 - `gh-pages` for our hosted site, which includes our analytics tracking code. **Please avoid using this branch.**
 
 
-## Author
-
-**Mark Otto**
+## License
+**Author: Mark Otto**
 - <https://github.com/mdo>
 - <https://twitter.com/mdo>
 
-
-## License
-
 Open sourced under the [MIT license](LICENSE.md).
-
-<3
