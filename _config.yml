@@ -10,7 +10,7 @@ title:            Fabrice Lécuyer
 #tagline:          'A Jekyll theme'
 description:      'MSc Student in Computer Sciences at ENS de Lyon'
 url:              http://fabrice.lecuyer.me
-baseurl:          /
+baseurl:          "/"
 #paginate:         5
 
 # Custom vars
