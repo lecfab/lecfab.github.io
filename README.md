@@ -4,16 +4,12 @@ Hyde is a [Jekyll](http://jekyllrb.com) based on [Poole](http://getpoole.com).
 
 <img src="https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png" width=400 alt="Hyde screenshot">
 
-## Contents
-
 - [Usage](#usage)
-- [Options](#options)
   - [Sidebar menu](#sidebar-menu)
   - [Sticky sidebar content](#sticky-sidebar-content)
   - [Themes](#themes)
   - [Reverse layout](#reverse-layout)
 - [Development](#development)
-- [Author](#author)
 - [License](#license)
 
 
@@ -21,11 +17,7 @@ Hyde is a [Jekyll](http://jekyllrb.com) based on [Poole](http://getpoole.com).
 
 Hyde is a theme built on top of [Poole](https://github.com/poole/poole), which provides a fully furnished Jekyll setup—just download and start the Jekyll server. See [the Poole usage guidelines](https://github.com/poole/poole#usage) for how to install and use Jekyll.
 
-
-## Options
-
 Hyde includes some customizable options, typically applied via classes on the `<body>` element.
-
 
 ### Sidebar menu
 
@@ -48,16 +40,12 @@ By default Hyde ships with a sidebar that affixes it's content to the bottom of 
 ```html
 <!-- Default sidebar -->
 <div class="sidebar">
-  <div class="container sidebar-sticky">
-    ...
-  </div>
+  <div class="container sidebar-sticky">...</div>
 </div>
 
 <!-- Modified sidebar -->
 <div class="sidebar">
-  <div class="container">
-    ...
-  </div>
+  <div class="container">...</div>
 </div>
 ```
 
@@ -104,8 +92,6 @@ Hyde has two branches, but only one is used for active development.
 
 
 ## License
-**Author: Mark Otto**
-- <https://github.com/mdo>
-- <https://twitter.com/mdo>
+Author: **Mark Otto** (<https://github.com/mdo>, <https://twitter.com/mdo>)
 
 Open sourced under the [MIT license](LICENSE.md).
