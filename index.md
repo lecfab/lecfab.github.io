@@ -11,7 +11,7 @@ Feel free to send an email for any comment or question!
 
 ## Education
 
-After two years in French "Classes préparatoires" in Science, I was admitted in ENS de Lyon, one of the top-ranking schools for research, where I got a bachelor and started a master. Thanks to the Erasmus exchange program, I could spend one year in Munich studying physics. My studies are meant to be finished in June 2019.
+After two years in French "Classes préparatoires" in Science, I was admitted in ENS de Lyon, one of the top-ranking schools for research, where I got a bachelor and started a master. Thanks to the Erasmus exchange program, I could spend one year in Munich studying physics. My studies are meant to be finished in June 2020.
 
 ## Work and research
 
