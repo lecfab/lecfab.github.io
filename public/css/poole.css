@@ -108,6 +108,7 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
+.content p { text-align: justify; }
 
 strong {
   color: #303030;

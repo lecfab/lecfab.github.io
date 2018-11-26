@@ -34,6 +34,7 @@ author:
   email:             fabrice.lecuyer@ens-lyon.fr
   emailProtected:    fab****.lec****@ens-lyon.fr
   img:               /public/photoLyon.jpg
+  cv:                /public/CV_2018.pdf
 
 # Gems
 gems:
