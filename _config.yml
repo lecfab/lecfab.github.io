@@ -8,8 +8,8 @@ permalink:        pretty
 # Setup
 title:            Fabrice Lécuyer
 #tagline:          'A Jekyll theme'
-description:      'MSc Student in Computer Sciences at ENS de Lyon'
-url:              http://fabrice.lecuyer.me/
+description:      'PhD student in Complex Networks at LIP6 Sorbonne'
+url:              https://fabrice.lecuyer.me/
 baseurl:          "/"
 #paginate:         5
 
@@ -31,12 +31,12 @@ sass:
 author:
   name:              Fabrice Lécuyer
   url:               http://fabrice.lecuyer.me
-  email:             fabrice.lecuyer@ens-lyon.fr
-  emailProtected:    fab****.lec****@ens-lyon.fr
+  email:             fabrice.lecuyer@lip6.fr
+  emailProtected:    fab****.lec****@lip6.fr
   img:               /public/photoLyon.jpg
-  cv:                /public/CV_2018.pdf
+  cv:                /public/Lecuyer_CV_2021.pdf
 
 # Gems
-gems:
+plugins:
  # - jekyll-paginate
   - jekyll-gist
