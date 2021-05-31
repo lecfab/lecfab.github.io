@@ -15,11 +15,11 @@ Feel free to contact me by email!
 
 * Fabrice Lécuyer, Maximilien Danisch, Lionel Tabourier. _[Replication] Speedup Graph Processing by Graph Ordering_ ([ReScience](http://rescience.github.io), 2021) [[DOI](https://doi.org/10.5281/zenodo.4836230)]
 
-* Fabrice Lécuyer, Rémy Cazabet. _Community detection in fine-grained dynamical networks_ (Internship report, Lyon, 2020) [[PDF](/public/pdf/Lecuyer_2020_Dynamical-community-detection.pdf)]
+* Fabrice Lécuyer, Rémy Cazabet. _Community detection in fine-grained dynamical networks_ (Internship in Lyon, 2020) [[report](/public/pdf/Lecuyer_2020_Dynamical-community-detection.pdf)]
 
-* Fabrice Lécuyer, Marc Santolini, Amar Dhand, Sean Cornelius, Albert-László Barabási. _Model of the Hospital Network and Health Trajectories_ (Internship report, Boston, 2017) [[PDF](/public/pdf/Lecuyer_2017_Hospital-network-model.pdf)]
+* Fabrice Lécuyer, Marc Santolini, Amar Dhand, Sean Cornelius, Albert-László Barabási. _Model of the Hospital Network and Health Trajectories_ (Internship in Boston, 2017) [[report](/public/pdf/Lecuyer_2017_Hospital-network-model.pdf)]
 
-* Fabrice Lécuyer, Olivier Roux. _Introduction de données quantitatives dans la modélisation qualitative des régulations biologiques_ (Internship report, Nantes, 2016) [[PDF](/public/pdf/Lecuyer_2016_Reseaux-regulation-biologique.pdf)]
+* Fabrice Lécuyer, Olivier Roux. _Introduction de données quantitatives dans la modélisation qualitative des régulations biologiques_ (Internship in Nantes, 2016) [[report](/public/pdf/Lecuyer_2016_Reseaux-regulation-biologique.pdf)]
 
 
 ## Teaching
@@ -27,11 +27,6 @@ Feel free to contact me by email!
 * 2021: Algorithmique, L2.
 * 2020: Python, L1.
 * 2019: oral interrogations in physics, PCSI/PC.
-
-
-## Work
-
-As for the programming aspect of computer sciences, I started as a teen with PHP/SQL to develop an online game. Later, I used several languages and was hired as a part-time frontend
 
 ## Other interests
 
