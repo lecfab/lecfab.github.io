@@ -7,7 +7,7 @@ title: Home
 
 I am a PhD student in complex networks in Paris. I graduated from ENS Lyon in computer sciences and my main research interests are graph theory, complex systems and data analysis.
 
-The PhD project began in September 2020 at [LIP6](https://www.lip6.fr/) Sorbonne and [CRI](https://interactiondatalab.com/) Paris under the supervision of Lionel Tabourier and Marc Santolini. It focusses on _sorting nodes to scale to massive real-world networks_: as we have access to arbitrarily big networks collected from various fields (biology, social ties, trade, web), graph algorithms should be linear if we want them to scale. One promising idea is to sort nodes according to specific graph properties (degree, centrality, degeneracy...) to improve experimental run-time and theoretical bounds.
+The PhD project began in September 2020 at [LIP6](https://www.lip6.fr/) Sorbonne and [CRI](https://interactiondatalab.com/) Paris under the supervision of Lionel Tabourier and Clémence Magnien. It focusses on _sorting nodes to scale to massive real-world networks_: as we have access to arbitrarily big networks collected from various fields (biology, social ties, trade, web), graph algorithms can only scale if they have linear complexity. One promising idea is to sort nodes according to specific graph properties (degree, centrality, degeneracy...) to improve experimental run-time and theoretical bounds.
 
 Feel free to contact me by email!
 
@@ -24,8 +24,8 @@ Feel free to contact me by email!
 
 ## Teaching
 
+* 2020, 2021: Python, L1 [(instructions)](https://semestriel.framapad.org/p/python-scfo135).
 * 2021: Algorithmique, L2.
-* 2020: Python, L1.
 * 2019: oral interrogations in physics, PCSI/PC.
 
 ## Other interests
