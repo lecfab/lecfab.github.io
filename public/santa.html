@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Secret Santa</title>
+    <script type="text/javascript">
+        function hide_blocks() {
+            for(elmt of document.querySelectorAll(".form-block")) {
+                elmt.style.display = "none";
+            }
+        }
+        function display_emails() {
+            hide_blocks();
+            document.getElementById("emails-list").style.display = "block";
+        }
+        function display_cheat() {
+            hide_blocks();
+            generate_cheats();
+            document.getElementById("cheat-list").style.display = "block";
+        }
+        function display_results() {
+            hide_blocks();
+            document.getElementById("results").style.display = "block";
+        }
+
+        let addresses = []
+        function submit_emails() {
+            let value = document.getElementById("emails").value.replaceAll(",","\n").replaceAll("\n\n","\n");
+            while(value[value.length - 1] == "\n") value = value.substring(0, value.length - 1);
+            addresses = value.split("\n");
+            if(addresses.length < 2) return document.querySelector("#emails-list .error").style.display = "block";
+            else document.querySelector("#emails-list .error").style.display = "none";
+            display_cheat();
+        }
+
+        function addresses_select(id) {
+            let div = document.createElement("div");
+            div.setAttribute("class", "cheat input-group mb-2 ")
+            let select = document.createElement("select")
+            select.setAttribute("class", "form-select")
+            select.setAttribute("name", "cheat-from-"+id)
+            select.setAttribute("id", "cheat-from-"+id)
+            for(a of ["???"].concat(addresses)) {
+                if(a == addresses[id]) continue;
+                let option = document.createElement("option");
+                option.setAttribute("value", a);
+                option.appendChild(document.createTextNode(a));
+                select.appendChild(option);
+            }
+            let label = document.createElement("label");
+            label.setAttribute("for", "cheat-from-"+id);
+            label.setAttribute("class", "input-group-text");
+            label.innerHTML = addresses[id] + " offrira à"
+            div.appendChild(label);
+            div.appendChild(select);
+            return div;
+        }
+        function generate_cheats() {
+            let cheats = document.querySelectorAll("#cheat-list .cheat");
+            for(let c of cheats) c.remove();
+            for(var i=0; i<addresses.length; i++) {
+                document.getElementById("cheat-list").appendChild(addresses_select(i));
+            }
+        }
+
+        function search_group(groups, pos, val) {
+            // console.log("searching "+ val+" in pos "+pos)
+            for(var g=0; g<groups.length; g++) {
+                if(pos==-1 && groups[g][groups[g].length-1]==val) return g;
+                if(groups[g][pos]==val) return g;
+            }
+            return -1;
+        }
+        function merge_groups(groups, g1, g2) {
+            if(g1 == g2) return groups
+            groups[g1] = groups[g1].concat(groups[g2])
+            groups.splice(g2, 1);
+            return groups;
+        }
+        function shuffleArray(arr) {
+          for (let i = arr.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [arr[i], arr[j]] = [arr[j], arr[i]];
+          }
+        }
+        function santa_error(err) {
+            document.querySelector(".santa-error").innerHTML = err;
+        }
+        function write_email(to) {
+            let txt = "Coucou,\n\nPour savoir à qui tu offriras un cadeau pour Noël, utilise ce décodeur : https://base64decoder.io avec le code "
+            return txt + btoa(to.padEnd(40,"!"))
+        }
+        function submit_santa() {
+            let groups = [];
+            for(a of addresses) groups.push([a]);
+
+            for(var i=0; i<addresses.length; i++) {
+                let select = document.querySelector("#cheat-from-"+i).value;
+                if(select == "???") continue;
+                group_from = search_group(groups, -1, addresses[i]);
+                group_to = search_group(groups, 0, select);
+                if(group_from == -1) return santa_error(addresses[i] +" donne déjà à quelqu'un")
+                else if(group_from == -1) return santa_error(select +" reçoit déjà de quelqu'un")
+                else if(group_from == group_to) return santa_error("Un groupe essaie de la jouer solo : "+ groups[group_to].toString())
+                else {
+                    groups = merge_groups(groups, group_from, group_to);
+                }
+            }
+            shuffleArray(groups)
+            let santa = []
+            for(var g of groups) {
+                for(var a of g) santa.push(a);
+            }
+            let links = document.getElementById("results").querySelector(".links");
+            links.innerHTML = "";
+            for(var i=0; i<santa.length; i++) {
+                let from = santa[i];
+                let to = (i+1 < santa.length) ? santa[i+1] : santa[0];
+                let a = document.createElement("a");
+                a.setAttribute("class", "btn btn-outline-secondary mb-2")
+                a.setAttribute("role", "button")
+                a.setAttribute("href", "mailto:"+from+"?subject=Secret Santa les Bails 2021&body="+write_email(to))
+                a.appendChild(document.createTextNode("Mail pour "+ from))
+                links.appendChild(a)
+                links.appendChild(document.createElement("br"))
+            }
+            // document.getElementById("results").querySelector(".links").innerHTML = santa.toString();
+            display_results();
+        }
+
+        function decode(str) {
+            document.getElementById("decoded").innerHTML = atob(document.getElementById("toDecode").value).replaceAll("!","");
+        }
+    </script>
+    <style media="screen">
+        .form-block { display: none; }
+        <!-- .error { color: #a00; } -->
+        .product-form { max-width: 900px; margin: 0 auto; }
+    </style>
+</head>
+<body>
+    <div class="layout">
+    <div class="container">
+        <div class="product-form mt-3 mb-3">
+            <h1>Secret Santa</h1>
+            <p style="text-align:justify">
+                Un groupe de personne souhaite faire un tirage au sort pour que chacune offre un cadeau à quelqu'un désigné au hasard, sauf si la personne qui organise triche un peu en désignant certains binômes.
+                Pour qu'elle ne sache pas tout, les mails sont encodés et doivent être décodés après réception.
+            </p>
+            <h3>Décodeur</h3>
+            <form class="mb-5">
+                <div class="input-group mb-3">
+                  <div class="form-floating flex-grow-1">
+                      <input type="text" class="form-control" placeholder="Texte à décoder" id="toDecode" onchange="decode()" onpaste="decode()" onkeyup="decode()">
+                      <label for="toDecode">Texte à décoder</label>
+                  </div>
+                      <span class="input-group-text" id="decoded">...</span>
+                </div>
+            </form>
+            <h3>Générateur</h3>
+            <form>
+                <div id="emails-list" class="form-block" style="display:block">
+                    <div class="col-12 mb-3 form-floating">
+                      <textarea class="form-control input-area" id="emails" style="height:300px"></textarea>
+                      <label for="emails" class="form-label">Adresses email des personnes qui participent (une par ligne)</label>
+                    </div>
+                    <div class="col-12">
+                      <button class="btn btn-primary" type="button" onclick="submit_emails()">Valider les emails</button>
+                      <div class="invalid-feedback error">Il faut au moins deux adresses email.</div>
+                    </div>
+                </div>
+                <div id="cheat-list" class="form-block">
+                    <div class="mb-3">
+                      <button class="btn btn-primary" type="button" onclick="submit_santa()">Valider les règles de triche</button>
+                      <button class="btn btn-outline-secondary" type="button" onclick="display_emails()">Modifier les adresses email</button>
+                      <div class="invalid-feedback santa-error error"></div>
+                    </div>
+                </div>
+                <div id="results" class="form-block">
+                    <button class="btn btn-primary mb-3" type="button" onclick="submit_santa()">Relancer les dés</button>
+                    <button class="btn btn-outline-secondary mb-3" type="button" onclick="display_cheat()">Modifier les tricheries</button>
+                    <button class="btn btn-outline-secondary mb-3" type="button" onclick="display_emails()">Modifier les adresses email</button>
+                    <div class="links"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
