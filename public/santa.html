@@ -90,12 +90,14 @@
         }
         function santa_error(err) {
             document.querySelector(".santa-error").innerHTML = err;
+            document.querySelector(".santa-error").style.display = "block";
         }
         function write_email(to) {
             let txt = "Pour savoir à qui tu offriras un cadeau pour Noël, utilise ce décodeur : https://fabrice.lecuyer.me/public/santa avec le code "
             return txt + btoa(to.padEnd(40,"!"))
         }
         function submit_santa() {
+            document.querySelector(".santa-error").style.display = "block";
             let groups = [];
             for(a of addresses) groups.push([a]);
 
@@ -104,9 +106,9 @@
                 if(select == "???") continue;
                 group_from = search_group(groups, -1, addresses[i]);
                 group_to = search_group(groups, 0, select);
-                if(group_from == -1) return santa_error(addresses[i] +" donne déjà à quelqu'un")
-                else if(group_from == -1) return santa_error(select +" reçoit déjà de quelqu'un")
-                else if(group_from == group_to) return santa_error("Un groupe essaie de la jouer solo : "+ groups[group_to].toString())
+                if(group_from == -1) return santa_error("Pourquoi "+ addresses[i] +" donne plusieurs cadeaux ?")
+                else if(group_to == -1) return santa_error("Pourquoi "+ select +" reçoit plusieurs cadeaux ?")
+                else if(group_from == group_to) return santa_error("Un groupe essaie de la jouer solo : "+ groups[group_to].toString().replaceAll(",",", "))
                 else {
                     groups = merge_groups(groups, group_from, group_to);
                 }
