@@ -92,7 +92,7 @@
             document.querySelector(".santa-error").innerHTML = err;
         }
         function write_email(to) {
-            let txt = "Coucou,\n\nPour savoir à qui tu offriras un cadeau pour Noël, utilise ce décodeur : https://base64decoder.io avec le code "
+            let txt = "Pour savoir à qui tu offriras un cadeau pour Noël, utilise ce décodeur : https://fabrice.lecuyer.me/public/santa avec le code "
             return txt + btoa(to.padEnd(40,"!"))
         }
         function submit_santa() {
