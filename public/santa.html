@@ -137,15 +137,30 @@
 
         function decode(str) {
             document.getElementById("decoded").innerHTML = atob(document.getElementById("toDecode").value).replaceAll("!","");
+            play_song();
         }
+
+        function play_song() {
+            document.getElementById("christmas-song").play();
+        }
+        // document.onmousemove = play_song;
+        document.onload = play_song;
     </script>
     <style media="screen">
+        html { background: fixed url('https://santaexperience.ie/wp-content/uploads/2020/10/santa-homepage1.png'); background-size: 200px;}
+        body { background: transparent; }
         .form-block { display: none; }
         <!-- .error { color: #a00; } -->
-        .product-form { max-width: 900px; margin: 0 auto; }
+        .container { margin-top: 100px; margin-bottom: 300px;}
+        .product-form { max-width: 900px; margin: 0 auto; padding: 20px;  background: #fffe; border-radius: 8px;  }
     </style>
 </head>
 <body>
+    <audio controls autoplay id="christmas-song">
+        <source src="santa.m4a" type="audio/m4a">
+      <source src="santa.webm" type="audio/webm">
+    Your browser does not support the audio element.
+    </audio>
     <div class="layout">
     <div class="container">
         <div class="product-form mt-3 mb-3">
