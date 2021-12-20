@@ -182,8 +182,15 @@
             display_results();
         }
 
+        let decode_timeout;
+        function do_decode(str) {
+            let decoded = atob(document.getElementById("toDecode").value).replaceAll("!","");
+            if(decoded != "") document.getElementById("decoded").innerHTML = decoded;
+            clearTimeout(decode_timeout);
+            decode_timeout = window.setTimeout(do_decode, 800);
+        }
         function decode(str) {
-            document.getElementById("decoded").innerHTML = atob(document.getElementById("toDecode").value).replaceAll("!","");
+            do_decode();
             play_song();
         }
 
@@ -191,7 +198,15 @@
             document.getElementById("christmas-song").play();
         }
         // document.onmousemove = play_song;
-        document.onload = play_song;
+        document.onload = function() {
+            do_decode();
+            play_song();
+        }
+        var loader = setInterval(function () {
+            if(document.readyState !== "complete") return;
+            clearInterval(loader);
+            do_decode();
+         }, 300);
     </script>
     <style media="screen">
         html { background: fixed url('santa.png'); background-size: 200px;}
@@ -223,10 +238,10 @@
             <form class="mb-5">
                 <div class="input-group mb-3">
                   <div class="form-floating flex-grow-1">
-                      <input type="text" class="form-control" placeholder="Texte à décoder" id="toDecode" onchange="decode()" onpaste="decode()" onkeyup="decode()" onmouseup="decode()">
+                      <input type="text" class="form-control" placeholder="Texte à décoder" id="toDecode" onchange="decode()" onpaste="decode()" onkeyup="decode()" onmouseup="decode()" onfocusout="decode()">
                       <label for="toDecode">Texte à décoder</label>
                   </div>
-                      <span class="input-group-text" id="decoded">...</span>
+                  <button id="decoded" class="btn btn-primary input-group-text" type="button" onclick="decode()">Décoder</button>
                 </div>
             </form>
             <h3>Générateur</h3>
