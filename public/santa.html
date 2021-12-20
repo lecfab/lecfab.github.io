@@ -20,7 +20,8 @@
         }
         function display_cheat() {
             hide_blocks();
-            generate_cheats();
+            if(addresses_have_changed) generate_cheats();
+            addresses_have_changed = false;
             document.getElementById("cheat-list").style.display = "block";
         }
         function display_results() {
@@ -29,12 +30,17 @@
         }
 
         let addresses = []
+        addresses_have_changed = true;
         function submit_emails() {
             let value = document.getElementById("emails").value.replaceAll(",","\n").replaceAll("\n\n","\n");
             while(value[value.length - 1] == "\n") value = value.substring(0, value.length - 1);
-            addresses = value.split("\n");
-            if(addresses.length < 2) return document.querySelector("#emails-list .error").style.display = "block";
+            let new_addresses  = value.split("\n");
+            if(new_addresses.length < 2) return document.querySelector("#emails-list .error").style.display = "block";
             else document.querySelector("#emails-list .error").style.display = "none";
+            addresses_have_changed = (JSON.stringify(new_addresses) != JSON.stringify(addresses));
+            // console.log(addresses_have_changed, new_addresses, addresses)
+            addresses = new_addresses;
+            for(let e of document.querySelectorAll(".modify-emails")) e.innerHTML = "Modifier les "+ addresses.length +" adresses email"
             display_cheat();
         }
 
@@ -43,6 +49,7 @@
             div.setAttribute("class", "cheat input-group mb-2 ")
             let select = document.createElement("select")
             select.setAttribute("class", "form-select")
+            // select.setAttribute("multiple", "multiple") // selection = [...field.options].filter(x => x.selected).map(x => x.value);;
             select.setAttribute("name", "cheat-from-"+id)
             select.setAttribute("id", "cheat-from-"+id)
             for(a of ["???"].concat(addresses)) {
@@ -64,7 +71,7 @@
             let cheats = document.querySelectorAll("#cheat-list .cheat");
             for(let c of cheats) c.remove();
             for(var i=0; i<addresses.length; i++) {
-                document.getElementById("cheat-list").appendChild(addresses_select(i));
+                document.querySelector(".cheat-options").appendChild(addresses_select(i));
             }
         }
 
@@ -92,9 +99,49 @@
             document.querySelector(".santa-error").innerHTML = err;
             document.querySelector(".santa-error").style.display = "block";
         }
+        function random_address() {
+            let a = addresses[Math.floor(Math.random() * addresses.length)];
+            document.querySelector(".random-address").value = a;
+            document.querySelector(".random-address").style.display = "block";
+        }
+        function get_code(txt) { return btoa(txt.padEnd(35,"!")); }
         function write_email(to) {
-            let txt = "Pour savoir à qui tu offriras un cadeau pour Noël, utilise ce décodeur : https://fabrice.lecuyer.me/public/santa avec le code "
-            return txt + btoa(to.padEnd(40,"!"))
+            let txt = "Coucou,\n\nPour savoir à qui tu offriras un cadeau pour Noël, utilise ce décodeur : \n"
+            txt += "https://fabrice.lecuyer.me/public/santa.html"
+            txt += "\n avec le code : \n" + get_code(to) + "\n\nJoyeuses fêtes !"
+            return txt
+        }
+
+        function santa_click(e) {
+            e.classList.add("btn-outline-secondary");
+        }
+        function santa_action(from, to) {
+            let t = document.createElement("span");
+            t.appendChild(document.createTextNode("Envoyer"))
+            let a = document.createElement("a");
+            a.setAttribute("class", "btn btn-outline-primary")
+            a.setAttribute("onclick", "santa_click(this)")
+            a.setAttribute("href", "mailto:"+from+"?subject=Secret Santa les Bails 2021&body="+encodeURIComponent(write_email(to)))
+            a.appendChild(t)
+
+            let b = document.createElement("div");
+            b.setAttribute("class", "input-group-append");
+            b.appendChild(a);
+
+            let d = document.createElement("textarea");
+            d.setAttribute("class", "form-control");
+            d.innerHTML = from + " reçoit le code "+ get_code(to);
+
+            let c = document.createElement("div");
+            c.setAttribute("class", "input-group");
+            c.appendChild(d);
+            c.appendChild(b);
+
+            let e = document.createElement("li");
+            e.setAttribute("class", "list-group-item");
+            e.setAttribute("style", "padding:0");
+            e.appendChild(c);
+            return e;
         }
         function submit_santa() {
             document.querySelector(".santa-error").style.display = "block";
@@ -118,18 +165,18 @@
             for(var g of groups) {
                 for(var a of g) santa.push(a);
             }
-            let links = document.getElementById("results").querySelector(".links");
-            links.innerHTML = "";
+            let list_links = []
             for(var i=0; i<santa.length; i++) {
                 let from = santa[i];
                 let to = (i+1 < santa.length) ? santa[i+1] : santa[0];
-                let a = document.createElement("a");
-                a.setAttribute("class", "btn btn-outline-secondary mb-2")
-                a.setAttribute("role", "button")
-                a.setAttribute("href", "mailto:"+from+"?subject=Secret Santa les Bails 2021&body="+write_email(to))
-                a.appendChild(document.createTextNode("Mail pour "+ from))
-                links.appendChild(a)
-                links.appendChild(document.createElement("br"))
+                list_links.push(santa_action(from, to));
+            }
+            shuffleArray(list_links);
+            let links = document.getElementById("results").querySelector(".links");
+            links.innerHTML = "";
+            for(let l of list_links) {
+                links.appendChild(l)
+                links.appendChild(document.createElement("br"));
             }
             // document.getElementById("results").querySelector(".links").innerHTML = santa.toString();
             display_results();
@@ -153,11 +200,14 @@
         audio { margin: 0 auto; max-width: 450px; display: block; width: 100%; }
         .container { margin-top: 100px; margin-bottom: 300px;}
         .product-form { max-width: 900px; margin: 0 auto; padding: 20px;  background: #fffe; border-radius: 8px;  }
+        #results ul a { height: 100%; }
+        #results ul a:visited { background: red; }
+        #results ul a span { vertical-align: middle; }
     </style>
 </head>
 <body>
     <audio controls autoplay id="christmas-song">
-        <source src="santa.m4a" type="audio/m4a">
+        <source src="santa.m4a" type="audio/m4a"> <!-- watch?v=Uu5xSOr3TOQ&listen=1 -->
         <source src="santa.webm" type="audio/webm">
         Your browser does not support the audio element.
     </audio>
@@ -193,16 +243,23 @@
                 </div>
                 <div id="cheat-list" class="form-block">
                     <div class="mb-3">
-                      <button class="btn btn-primary" type="button" onclick="submit_santa()">Valider les règles de triche</button>
-                      <button class="btn btn-outline-secondary" type="button" onclick="display_emails()">Modifier les adresses email</button>
-                      <div class="invalid-feedback santa-error error"></div>
+                        <button class="btn btn-primary" type="button" onclick="submit_santa()">Valider les règles de triche</button>
+                        <button class="btn btn-outline-secondary modify-emails" type="button" onclick="display_emails()">Modifier les adresses email</button>
+                        <div class="invalid-feedback santa-error error"></div>
+                    </div>
+                    <div class="mb-3 cheat-options"></div>
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                          <button class="btn btn-warning shadow-none" type="button" onclick="random_address()">Générer nom aléatoire</button>
+                      </div>
+                      <input type="text" class="form-control random-address shadow-none" placeholder="">
                     </div>
                 </div>
                 <div id="results" class="form-block">
                     <button class="btn btn-primary mb-3" type="button" onclick="submit_santa()">Relancer les dés</button>
                     <button class="btn btn-outline-secondary mb-3" type="button" onclick="display_cheat()">Modifier les tricheries</button>
-                    <button class="btn btn-outline-secondary mb-3" type="button" onclick="display_emails()">Modifier les adresses email</button>
-                    <div class="links"></div>
+                    <button class="btn btn-outline-secondary mb-3 modify-emails" type="button" onclick="display_emails()">Modifier les adresses email</button>
+                    <ul class="list-group links"></ul>
                 </div>
             </form>
         </div>
