@@ -119,7 +119,6 @@ Pourtant, Macron a continué a réduire le budget, avec une grosse diminution du
 ### Je tiens à l'éducation publique
 <details>
     <summary>Voir plus</summary>
-</details>
 
 Pour l'école primaire, l'idée centrale de Macron était de faire des classes de CP et CE1 plus petites en zone prioritaire. Cette mesure demande plus de profs, mais rien n'est fait pour les attirer [[ref : l'école n'arrive plus à recruter]](https://www.challenges.fr/education/quand-lecole-narrive-plus-a-recruter-de-profs_778401). Leurs salaires sont plus bas que dans le privé, plus bas que les autres fonctionnaires, plus bas que dans les autres pays. La survie de l'école publique nécessite donc de les augmenter, ainsi que le reste du personnel scolaire. Macron veut bien, mais à condition de travailler plus, ce qui n'a aucune chance de rendre la position plus attractive [[ref : Macron demande plus d'efforts aux profs]](https://www.lesechos.fr/elections/presidentielle/presidentielle-emmanuel-macron-propose-aux-enseignants-de-travailler-plus-pour-gagner-plus-1394466). En attendant, les absences sont rarement remplacées, ce qui génère des situations très inégalitaires d'une école à l'autre [[ref : 10% d'heures perdues, hors Covid]](https://www.mediapart.fr/journal/france/170222/le-non-remplacement-d-enseignants-fait-des-ravages-259-heures-perdues-en-un-mois-dans-un-college-de-seine).
 
@@ -134,6 +133,7 @@ http://www.cafepedagogique.net/lexpresso/Pages/2019/06/26062019Article6369713182
  -->
 
 Côté université, les frais d'inscription ont augmenté et les moyens des licences n'ont pas suivi l'augmentation du nombre d'élèves. De nouveaux statuts précaires ont été créés pour les personnes enseignantes-chercheuses : on pourra les recruter pour quelques années au lieu de les titulariser. Macron s'inspire du modèle anglophone, sauf que les salaires sont incomparablement plus bas en France. Il veut aller plus loin dans ce modèle, en rendant l'enseignement supérieur privé et payant [[ref : son idée de la « modernisation libérale »]](https://www.liberation.fr/societe/education/emmanuel-macron-veut-remettre-en-cause-la-quasi-gratuite-des-etudes-universitaires-20220114_SUZ3WMFW7ZARVDGJNJELYL3K7I/).
+</details>
 
 <!-- ### Je tiens à l'université publique
 - l'apprentissage remplace le chômage
