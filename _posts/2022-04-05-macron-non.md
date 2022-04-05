@@ -14,19 +14,19 @@ Si tu l'adores, voici quelques arguments pour nuancer. Si tu hésites ou veux vo
 
 #### Sommaire <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>§</a></i></small>
 
-  * [Je tiens au service public](#je-tiens-au-service-public)
-    + [Je tiens à la santé publique](#je-tiens---la-sant--publique)
-    + [Je tiens à l'éducation publique](#je-tiens---l--ducation-publique)
-  * [Je tiens à l'environnement](#je-tiens---l-environnement)
-    + [Je tiens à la sobriété économique](#je-tiens---la-sobri-t---conomique)
-    + [Je tiens à la transition énergétique](#je-tiens---la-transition--nerg-tique)
-  * [Je tiens à la démocratie](#je-tiens---la-d-mocratie)
-    + [Je tiens à la séparation des pouvoirs](#je-tiens---la-s-paration-des-pouvoirs)
-    + [Je tiens à l'indépendance des médias](#je-tiens---l-ind-pendance-des-m-dias)
-    + [Je tiens à la liberté](#je-tiens---la-libert-)
-    + [Je tiens à la concertation](#je-tiens---la-concertation)
-  * [Sources](#sources)
-  * [Points non abordés](#points-non-abord-s)
+  * [Je tiens au service public](#je-tiens-au-service-public-)
+    + [Je tiens à la santé publique](#je-tiens-à-la-santé-publique-)
+    + [Je tiens à l'éducation publique](#je-tiens-à-léducation-publique-)
+  * [Je tiens à l'environnement](#je-tiens-à-lenvironnement-)
+    + [Je tiens à la sobriété économique](#je-tiens-à-la-sobriété-économique-)
+    + [Je tiens à la transition énergétique](#je-tiens-à-la-transition-énergétique-)
+  * [Je tiens à la démocratie](#je-tiens-à-la-démocratie-)
+    + [Je tiens à la séparation des pouvoirs](#je-tiens-à-la-séparation-des-pouvoirs-)
+    + [Je tiens à l'indépendance des médias](#je-tiens-à-lindépendance-des-médias-)
+    + [Je tiens à la liberté](#je-tiens-à-la-liberté-)
+    + [Je tiens à la concertation](#je-tiens-à-la-concertation-)
+  * [Sources](#sources-)
+  * [Points non abordés](#points-non-abordés-)
 
 
 
@@ -230,7 +230,7 @@ J'ai essayé de varier les sources sur des journaux de tous bords politiques. Si
 - [[Macron : programme 2017]](https://www.leparisien.fr/elections/presidentielle/le-programme-d-emmanuel-macron-pour-la-presidentielle-2017-17-02-2017-6686394.php)
 - [[Macron : programme 2022]](https://www.leparisien.fr/elections/presidentielle/temps-de-travail-impots-education-le-programme-demmanuel-macron-a-la-presidentielle-08-03-2022-JHSL6JOFK5AEFFMSIACZKM3GZU.php)
 
-## Points non abordés
+## Points non abordés [↑](#pourquoi-je-pense-que-voter-macron-est-dangereux)
 J'ai essayé d'aborder seulement les thèmes les moins polémiques, dans le but de prouver que Macron est nuisible, peu importe ce qu'on pense de sujets plus clivants.
 
 <details>
