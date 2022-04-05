@@ -12,7 +12,6 @@ Peut-être que Macron est le vote le plus normal, le plus centré, ou le plus si
 
 Si tu l'adores, voici quelques arguments pour nuancer. Si tu hésites ou veux voter Macron par défaut, voici de quoi considérer d'autres candidatures. Si tu le détestes, voici quelques arguments de plus pour débattre.
 
-- [Pourquoi je pense que voter Macron est dangereux](#pourquoi-je-pense-que-voter-macron-est-dangereux)
   * [Version courte](#version-courte)
   * [Je tiens au service public](#je-tiens-au-service-public-1)
     + [Je tiens à la santé publique](#je-tiens---la-sant--publique-1)
@@ -31,9 +30,6 @@ Si tu l'adores, voici quelques arguments pour nuancer. Si tu hésites ou veux vo
 
 ## Version courte
 ### Je tiens au service public
-- diminuer les taxes diminue le financement du service public
-- les mesures de Macron ont déjà enrichi les 0.1% les plus riches
-- attirer l'investissement ne ruisselle pas sur les pauvres
 
 #### Je tiens à la santé publique
 - saturation depuis des années, avant Covid
@@ -92,12 +88,24 @@ Comme conclusion de tous les points précédents, j'insiste sur le fait que Macr
 
 -----------------------------
 ## Je tiens au service public
-Sachant que nous naissons dans des situations variées et inégales, et que la vie nous réserve des surprises variées et inégales, les services publics sont nécessaires pour que tout le monde s'en sorte au mieux. D'ailleurs même si vous êtes très individualiste, vous ne voudriez pas que des pauvres vous volent ou que des malades vous contaminent ; autant donc que tout le monde ait de quoi vivre sereinement.
+- diminuer les taxes diminue le financement du service public
+- les mesures de Macron ont déjà enrichi les 0.1% les plus riches
+- attirer l'investissement ne ruisselle pas sur les pauvres
 
-Pour financer tout cela, il faut des impôts, mais Macron a pour idéologie de diminuer les taxes sous couvert de favoriser l'investissement. Cette théorie du ruissellement justifie les cadeaux aux riches par le fait que ces riches financeront ensuite les pauvres [[ref : ça ne marche pas]](https://www.la-croix.com/Economie/France/theorie-ruissellement-existe-elle-2017-10-17-1200885054). Le Sénat a montré que les mesures économiques de Macron accroissent les inégalités en enrichissant les 0.1% les plus riches [[ref : +60% de dividendes]](https://www.publicsenat.fr/article/parlementaire/les-chiffres-sont-absolument-hallucinants-la-gauche-du-senat-s-empare-d-un).
+<details>
+  <summary>Voir plus</summary>
+  Sachant que nous naissons dans des situations variées et inégales, et que la vie nous réserve des surprises variées et inégales, les services publics sont nécessaires pour que tout le monde s'en sorte au mieux. D'ailleurs même si vous êtes très individualiste, vous ne voudriez pas que des pauvres vous volent ou que des malades vous contaminent ; autant donc que tout le monde ait de quoi vivre sereinement.
+
+  Pour financer tout cela, il faut des impôts, mais Macron a pour idéologie de diminuer les taxes sous couvert de favoriser l'investissement. Cette théorie du ruissellement justifie les cadeaux aux riches par le fait que ces riches financeront ensuite les pauvres [[ref : ça ne marche pas]](https://www.la-croix.com/Economie/France/theorie-ruissellement-existe-elle-2017-10-17-1200885054). Le Sénat a montré que les mesures économiques de Macron accroissent les inégalités en enrichissant les 0.1% les plus riches [[ref : +60% de dividendes]](https://www.publicsenat.fr/article/parlementaire/les-chiffres-sont-absolument-hallucinants-la-gauche-du-senat-s-empare-d-un).  
+</details>
+
 
 
 ### Je tiens à la santé publique
+
+
+
+
 Covid nous a fait réaliser que l'hôpital est fragile. Pendant deux ans, on a scruté son remplissage pour pouvoir se confiner avant qu'il ne sature. Pourtant, la saturation n'est pas nouvelle, et le personnel se désespère tous les ans du manque de moyens, depuis des années [[ref : #BalanceTonHosto]](https://www.francetvinfo.fr/sante/hopital/les-medecins-infirmiers-et-aide-soignants-balancent-leurs-hosto-pour-alerter-sur-leurs-conditions-de-travail_2575602.html).
 <!-- https://www.marianne.net/societe/manque-de-moyens-absurdites-le-personnel-hospitalier-se-lache-avec-balancetonhosto -->
 
