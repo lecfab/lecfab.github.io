@@ -106,12 +106,11 @@ Comme conclusion de tous les points précédents, j'insiste sur le fait que Macr
 <details>
   <summary>Voir plus</summary>
 Covid nous a fait réaliser que l'hôpital est fragile. Pendant deux ans, on a scruté son remplissage pour pouvoir se confiner avant qu'il ne sature. Pourtant, la saturation n'est pas nouvelle, et le personnel se désespère tous les ans du manque de moyens, depuis des années [[ref : BalanceTonHosto]](https://www.francetvinfo.fr/sante/hopital/les-medecins-infirmiers-et-aide-soignants-balancent-leurs-hosto-pour-alerter-sur-leurs-conditions-de-travail_2575602.html).
-<!-- https://www.marianne.net/societe/manque-de-moyens-absurdites-le-personnel-hospitalier-se-lache-avec-balancetonhosto -->
-
 
 Pourtant, Macron a continué a réduire le budget, avec une grosse diminution du nombre de lits, même pendant Covid [[ref : -4.5% de lits pour +1.5% de population]](https://www.liberation.fr/checknews/emmanuel-macron-a-t-il-ferme-17-600-lits-dhopital-en-quatre-ans-comme-laffirme-francois-ruffin-20211224_ZDEGBEMS4BHW3CGKLAOKL275ME/). Il dit maintenant que sa priorité est de réduire les déserts médicaux, mais il le disait déjà en 2017 et n'a rien fait depuis (pas même l'augmentation du numerus clausus = nombre de nouveaux diplômes de médecine par an).
-<!-- https://www.marianne.net/societe/sante/hopitaux-comment-expliquer-les-fermetures-de-lits-en-pleine-crise-covid -->
 </details>
+<!-- https://www.marianne.net/societe/manque-de-moyens-absurdites-le-personnel-hospitalier-se-lache-avec-balancetonhosto -->
+<!-- https://www.marianne.net/societe/sante/hopitaux-comment-expliquer-les-fermetures-de-lits-en-pleine-crise-covid -->
 
 
 
