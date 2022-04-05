@@ -105,7 +105,7 @@ Comme conclusion de tous les points précédents, j'insiste sur le fait que Macr
 
 <details>
   <summary>Voir plus</summary>
-Covid nous a fait réaliser que l'hôpital est fragile. Pendant deux ans, on a scruté son remplissage pour pouvoir se confiner avant qu'il ne sature. Pourtant, la saturation n'est pas nouvelle, et le personnel se désespère tous les ans du manque de moyens, depuis des années [[ref : #BalanceTonHosto]](https://www.francetvinfo.fr/sante/hopital/les-medecins-infirmiers-et-aide-soignants-balancent-leurs-hosto-pour-alerter-sur-leurs-conditions-de-travail_2575602.html).
+Covid nous a fait réaliser que l'hôpital est fragile. Pendant deux ans, on a scruté son remplissage pour pouvoir se confiner avant qu'il ne sature. Pourtant, la saturation n'est pas nouvelle, et le personnel se désespère tous les ans du manque de moyens, depuis des années [[ref : BalanceTonHosto]](https://www.francetvinfo.fr/sante/hopital/les-medecins-infirmiers-et-aide-soignants-balancent-leurs-hosto-pour-alerter-sur-leurs-conditions-de-travail_2575602.html).
 <!-- https://www.marianne.net/societe/manque-de-moyens-absurdites-le-personnel-hospitalier-se-lache-avec-balancetonhosto -->
 
 
