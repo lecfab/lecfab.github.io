@@ -12,7 +12,22 @@ Peut-être que Macron est le vote le plus normal, le plus centré, ou le plus si
 
 Si tu l'adores, voici quelques arguments pour nuancer. Si tu hésites ou veux voter Macron par défaut, voici de quoi considérer d'autres candidatures. Si tu le détestes, voici quelques arguments de plus pour débattre.
 
-[[_TOC_]]
+- [Pourquoi je pense que voter Macron est dangereux](#pourquoi-je-pense-que-voter-macron-est-dangereux)
+  * [Version courte](#version-courte)
+  * [Je tiens au service public](#je-tiens-au-service-public-1)
+    + [Je tiens à la santé publique](#je-tiens---la-sant--publique-1)
+    + [Je tiens à l'éducation publique](#je-tiens---l--ducation-publique-1)
+  * [Je tiens à l'environnement](#je-tiens---l-environnement-1)
+    + [Je tiens à la sobriété économique](#je-tiens---la-sobri-t---conomique-1)
+    + [Je tiens à la transition énergétique](#je-tiens---la-transition--nerg-tique-1)
+  * [Je tiens à la démocratie](#je-tiens---la-d-mocratie-1)
+    + [Je tiens à la séparation des pouvoirs](#je-tiens---la-s-paration-des-pouvoirs-1)
+    + [Je tiens à l'indépendance des médias](#je-tiens---l-ind-pendance-des-m-dias-1)
+    + [Je tiens à la liberté](#je-tiens---la-libert--1)
+    + [Je tiens à la concertation](#je-tiens---la-concertation-1)
+  * [Sources](#sources)
+  * [Points non abordés](#points-non-abord-s)
+
 
 ## Version courte
 ### Je tiens au service public
