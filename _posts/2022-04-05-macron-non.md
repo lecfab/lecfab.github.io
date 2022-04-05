@@ -32,7 +32,7 @@ Si tu l'adores, voici quelques arguments pour nuancer. Si tu hésites ou veux vo
 
 
 -----------------------------
-## Je tiens au service public
+## Je tiens au service public [↑](#pourquoi-je-pense-que-voter-macron-est-dangereux)
 <!-- - diminuer les taxes diminue le financement du service public
 - les mesures de Macron ont déjà enrichi les 0.1% les plus riches
 - attirer l'investissement ne ruisselle pas sur les pauvres -->
@@ -43,7 +43,7 @@ Pour financer tout cela, il faut des impôts, mais Macron a pour idéologie de d
 
 
 
-### Je tiens à la santé publique
+### Je tiens à la santé publique [↑](#pourquoi-je-pense-que-voter-macron-est-dangereux)
 - saturation depuis des années, avant Covid
 - baisse de lits malgré Covid
 - aucune action contre les déserts médicaux
@@ -62,7 +62,7 @@ Pourtant, Macron a continué a réduire le budget, avec une grosse diminution du
 
 
 
-### Je tiens à l'éducation publique
+### Je tiens à l'éducation publique [↑](#pourquoi-je-pense-que-voter-macron-est-dangereux)
 - grave manque de moyens
 - mépris envers le corps enseignant
 - décisions opaques, non concertées, autoritaires
@@ -92,12 +92,12 @@ Côté université, les frais d'inscription ont augmenté et les moyens des lice
 
 
 -----------------------------
-## Je tiens à l'environnement
+## Je tiens à l'environnement [↑](#pourquoi-je-pense-que-voter-macron-est-dangereux)
 
 Alors que Macron essaye de se montrer comme un leader de l'écologie à l’international, sa politique intérieure est désespérante [[ref : bilan du quinquennat par réseau-action-climat]](https://reseauactionclimat.org/publications/bilan-du-quinquennat-demannuel-macron-et-de-sa-majorite-sur-le-climat-et-la-transition-energetique/).
 
 
-### Je tiens à la sobriété économique
+### Je tiens à la sobriété économique [↑](#pourquoi-je-pense-que-voter-macron-est-dangereux)
 - aucune mention de la réduction de la consommation
 - propositions de la convention citoyenne ignorées ou dénaturées
 - utiliser plus d'électricité au lieu d'utiliser moins d'énergie
@@ -113,7 +113,7 @@ La Convention citoyenne avait proposé des mesures pour inciter à moins consomm
 De même, l'accent a été mis sur le développement et la promotion des voitures électriques, mais jamais sur la réduction de l'utilisation, du nombre ou de la taille des voitures [[ref : fédération d'usagers des transports]](https://www.fnaut.fr/projet-de-loi-climat-les-enjeux-de-la-mobilite-ont-ete-oublies/). Malheureusement, l'électricité n'est pas une source d'énergie (ni l'hydrogène vert d'ailleurs), mais seulement un moyen de la transmettre. Tant que cette électricité ne proviendra pas de sources propres, nos voitures électriques ne réduiront pas le changement climatique (elles ont par contre un rôle pour la pollution en ville).
 </details>
 
-### Je tiens à la transition énergétique
+### Je tiens à la transition énergétique [↑](#pourquoi-je-pense-que-voter-macron-est-dangereux)
 - seul pays de l'UE à ne pas avoir atteint ses objectifs d'énergie renouvelable
 - tout sur le nucléaire alors que c'est beaucoup trop lent
 - État attaqué en justice pour son inaction
@@ -136,10 +136,10 @@ Côté énergies renouvelables, la France est le seul pays qui n'a pas atteint l
 
 
 -----------------------------
-## Je tiens à la démocratie
+## Je tiens à la démocratie [↑](#pourquoi-je-pense-que-voter-macron-est-dangereux)
 Les problèmes ci-dessus pourraient être pris pour des erreurs ou des échecs qui vont être résolus au prochain mandat. Mais Macron a aussi prouvé sa mauvaise foi en terme de démocratie, tant dans son attitude que dans ces actes.
 
-### Je tiens à la séparation des pouvoirs
+### Je tiens à la séparation des pouvoirs [↑](#pourquoi-je-pense-que-voter-macron-est-dangereux)
 - contrôle total du corps législatif, refus du débat
 - loi surveillance par la police pour la police
 - mépris de la justice
@@ -157,7 +157,7 @@ Quant à la justice, elle n'a pas les moyens de fonctionner correctement [[ref :
 
 <!-- (https://www.bfmtv.com/politique/elysee/la-justice-est-une-autorite-pas-un-pouvoir-le-soutien-tres-ferme-de-macron-a-dupond-moretti_AN-202107130280.html) -->
 
-### Je tiens à l'indépendance des médias
+### Je tiens à l'indépendance des médias [↑](#pourquoi-je-pense-que-voter-macron-est-dangereux)
 - pression et intimidation sur les journalistes
 - tentative d'empêcher de documenter les violences policières
 - haine des chaînes publiques et souhait de les fragiliser
@@ -172,7 +172,7 @@ Son idée est donc de supprimer la taxe audiovisuelle pour faire économiser 100
 <!-- https://www.latribune.fr/opinions/tribunes/la-concentration-des-medias-un-enjeu-democratique-906649.html -->
 </details>
 
-### Je tiens à la liberté
+### Je tiens à la liberté [↑](#pourquoi-je-pense-que-voter-macron-est-dangereux)
 - légalisation de l'état d'urgence
 - violences policières
 - rapport d'Amnesty sur le droit de manifester
@@ -195,7 +195,7 @@ La répression des manifestations ne s'exerce pas sur les _black blocks_ qui jet
 
 
 
-### Je tiens à la concertation
+### Je tiens à la concertation [↑](#pourquoi-je-pense-que-voter-macron-est-dangereux)
 Comme conclusion de tous les points précédents, j'insiste sur le fait que Macron décide seul et ignore toute forme de concertation. Une personne qui n'écoute pas est dangereuse, surtout quand elle a tant de pouvoir.
 
 - ignorer la population et ses revendications sociales
@@ -221,7 +221,7 @@ En bref, Macron n'écoute personne et préfère faire de longs discours bien pr�
 
 
 
-## Sources
+## Sources [↑](#pourquoi-je-pense-que-voter-macron-est-dangereux)
 J'ai essayé de varier les sources sur des journaux de tous bords politiques. Si des articles cités sont payants, je peux te les envoyer.
 
 - [[Hesitator : trouver la candidature qui vous correspond]](https://www.marianne.net/politique/hesitator2022-marianne-vous-aide-a-trouver-votre-candidat-pour-la-presidentielle)
