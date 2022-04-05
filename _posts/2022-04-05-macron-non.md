@@ -12,7 +12,7 @@ Peut-être que Macron est le vote le plus normal, le plus centré, ou le plus si
 
 Si tu l'adores, voici quelques arguments pour nuancer. Si tu hésites ou veux voter Macron par défaut, voici de quoi considérer d'autres candidatures. Si tu le détestes, voici quelques arguments de plus pour débattre.
 
-#### Sommaire <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>(généré par markdown-toc)</a></i></small>
+#### Sommaire <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>§</a></i></small>
 
   * [Je tiens au service public](#je-tiens-au-service-public)
     + [Je tiens à la santé publique](#je-tiens---la-sant--publique)
