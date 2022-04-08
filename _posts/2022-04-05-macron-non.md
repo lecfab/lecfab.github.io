@@ -47,8 +47,8 @@ Pour financer tout cela, il faut des impôts, mais Macron a pour idéologie de d
 
 ### Je tiens à la santé publique [↑](#pourquoi-je-pense-que-voter-macron-est-dangereux)
 - saturation depuis des années, avant Covid
-- baisse de lits malgré Covid
-- aucune action contre les déserts médicaux
+- baisse de budget persistante malgré Covid
+- action insuffisante contre les déserts médicaux
 
 <details>
   <summary>Voir plus</summary>
