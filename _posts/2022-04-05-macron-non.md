@@ -55,7 +55,7 @@ Pour financer tout cela, il faut des impôts, mais Macron a pour idéologie de d
 
 Covid nous a fait réaliser que l'hôpital est fragile. Pendant deux ans, on a scruté son remplissage pour pouvoir se confiner avant qu'il ne sature. Pourtant, la saturation n'est pas nouvelle, et le personnel se désespère tous les ans du manque de moyens, depuis des années [[ref : #BalanceTonHosto]](https://www.francetvinfo.fr/sante/hopital/les-medecins-infirmiers-et-aide-soignants-balancent-leurs-hosto-pour-alerter-sur-leurs-conditions-de-travail_2575602.html).
 
-Pourtant, Macron a continué à réduire le budget, avec une grosse diminution du nombre de lits, même pendant Covid [[ref : -4.5% de lits pour +1.5% de population]](https://www.liberation.fr/checknews/emmanuel-macron-a-t-il-ferme-17-600-lits-dhopital-en-quatre-ans-comme-laffirme-francois-ruffin-20211224_ZDEGBEMS4BHW3CGKLAOKL275ME/). Il dit maintenant que sa priorité est de réduire les déserts médicaux, mais il le disait déjà en 2017 et n'a rien fait depuis (pas même l'augmentation du numerus clausus = nombre de nouveaux diplômes de médecine par an).
+Pourtant, Macron a continué à réduire le budget de l'hôpital même pendant Covid [[ref : -4.5% de lits pour +1.5% de population]](https://www.liberation.fr/checknews/emmanuel-macron-a-t-il-ferme-17-600-lits-dhopital-en-quatre-ans-comme-laffirme-francois-ruffin-20211224_ZDEGBEMS4BHW3CGKLAOKL275ME/). Il dit maintenant que sa priorité est de réduire les déserts médicaux, mais il le disait déjà en 2017 et ses actions sont loin d'avoir résolu le problème [[ref]](https://www.20minutes.fr/sante/3174871-20211119-etudes-sante-fin-numerus-clausus-poudre-yeux-vraie-solution-finir-manque-medecins).
 </details>
 <!-- https://www.marianne.net/societe/manque-de-moyens-absurdites-le-personnel-hospitalier-se-lache-avec-balancetonhosto -->
 <!-- https://www.marianne.net/societe/sante/hopitaux-comment-expliquer-les-fermetures-de-lits-en-pleine-crise-covid -->
@@ -188,7 +188,7 @@ Macron a été élu pendant un état d'urgence dû aux attentats. Il y a immédi
 De nombreux cas de violences policières ont parsemé le quinquennat. Amnesty a alerté plusieurs fois sur ces violations des droits humains par « le pays des droits humains »
 [[ref : rapport Amnesty 2021]](https://www.amnesty.fr/actualites/rapport-annuel-2021-focus-france-sur-les-droits-humains). Sur la liberté de manifester, le bilan est terrible [[ref : carton rouge pour la France]](https://www.lefigaro.fr/actualite-france/amnesty-adresse-un-carton-rouge-a-la-france-20210407), avec une police toujours plus nombreuse, plus armée, plus violente, des pouvoirs supplémentaires pour surveiller (caméras, drones, reconnaissance faciale).
 
-La répression des manifestations ne s'exerce pas sur les _black blocks_ qui jettent des pavés sur la police, mais sur l'entièreté des protestataires : gaz lacrymogène, charges de CRS, tirs de LBD (grosses balles en caoutchouc), coups de matraque sont de vrais risques pour n'importe quelle personne manifestant. On entend souvent que c'est la seule solution pour maintenir l'ordre alors qu'il existe des techniques de désescalade [[ref : utilisées notamment en Allemagne]] permettant de désarmer la police et réduire les affrontements.
+La répression des manifestations ne s'exerce pas sur les _black blocks_ qui jettent des pavés sur la police, mais sur l'entièreté des protestataires : gaz lacrymogène, charges de CRS, tirs de LBD (grosses balles en caoutchouc), coups de matraque sont de vrais risques pour n'importe quelle personne manifestant. On entend souvent que c'est la seule solution pour maintenir l'ordre alors qu'il existe des techniques de désescalade [[ref : utilisées notamment en Allemagne]](https://www.liberation.fr/planete/2020/01/14/en-allemagne-priorite-au-dialogue-et-a-la-desescalade_1773090/) permettant de désarmer la police et réduire les affrontements.
 </details>
 
 
@@ -227,10 +227,12 @@ En bref, Macron n'écoute personne et préfère faire de longs discours bien pr�
 J'ai essayé de varier les sources sur des journaux de tous bords politiques. Si des articles cités sont payants, je peux te les envoyer.
 
 - [[Hesitator : trouver la candidature qui vous correspond]](https://www.marianne.net/politique/hesitator2022-marianne-vous-aide-a-trouver-votre-candidat-pour-la-presidentielle)
-- [[Bilan du quinquennat à biais positif (les Échos)]](https://www.lesechos.fr/elections/presidentielle/quinquennat-2017-2022-le-bilan-contrarie-demmanuel-macron-1391326)
-- [[Bilan du quinquennat à biais négatif (Médiapart)]](https://www.mediapart.fr/studio/panoramique/2017-2022-le-bilan-macron-au-scanner-de-mediapart)
+- [[Bilan du quinquennat à biais positif sur les Échos]](https://www.lesechos.fr/elections/presidentielle/quinquennat-2017-2022-le-bilan-contrarie-demmanuel-macron-1391326)
+- [[Bilan du quinquennat à biais négatif sur Médiapart]](https://www.mediapart.fr/studio/panoramique/2017-2022-le-bilan-macron-au-scanner-de-mediapart)
 - [[Macron : programme 2017]](https://www.leparisien.fr/elections/presidentielle/le-programme-d-emmanuel-macron-pour-la-presidentielle-2017-17-02-2017-6686394.php)
 - [[Macron : programme 2022]](https://www.leparisien.fr/elections/presidentielle/temps-de-travail-impots-education-le-programme-demmanuel-macron-a-la-presidentielle-08-03-2022-JHSL6JOFK5AEFFMSIACZKM3GZU.php)
+- [[Analyse de l'idéologie de Macron qui favorise celles d'extrême droite]](https://blogs.mediapart.fr/pierre-boccon-gibod/blog/040422/pourquoi-il-nest-plus-possible-dappeler-voter-macron-contre-lextreme-droite)
+- [[Reportages Off-investigation : « Emmanuel, un homme d’affaires à l’élysée »]](https://www.off-investigation.fr/les-series/emmanuel-un-homme-daffaires-a-lelysee/)
 
 ## Points non abordés [↑](#pourquoi-je-pense-que-voter-macron-est-dangereux)
 J'ai essayé d'aborder seulement les thèmes les moins polémiques, dans le but de prouver que Macron est nuisible, peu importe ce qu'on pense de sujets plus clivants.
