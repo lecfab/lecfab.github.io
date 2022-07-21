@@ -12,7 +12,7 @@ I'm interested in scalable graph algorithms applied on real-world datasets, with
 Feel free to contact me by email!
 
 ## Publications and talks
-* _Tailored vertex ordering for faster triangle listing in large graphs_. Fabrice Lécuyer, Louis Jachiet, Clémence Magnien, Lionel Tabourier ([MLG](http://www.mlgworkshop.org/) workshop of [KDD](https://www.kdd.org/kdd2022/) 2022)
+* [_Tailored vertex ordering for faster triangle listing in large graphs_](https://arxiv.org/abs/2203.04774). Fabrice Lécuyer, Louis Jachiet, Clémence Magnien, Lionel Tabourier ([MLG](http://www.mlgworkshop.org/) workshop of [KDD](https://www.kdd.org/kdd2022/) 2022)
 
 * [_Grands réseaux complexes : mettre de l’ordre dans les triangles_](/public/pdf/Lecuyer_2022_FRCCS.pdf). Fabrice Lécuyer, Louis Jachiet, Clémence Magnien, Lionel Tabourier ([FRCCS](https://iscpif.fr/frccs2022/) 2022)
 
