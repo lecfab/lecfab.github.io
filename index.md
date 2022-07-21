@@ -4,28 +4,32 @@ title: Home
 ---
 
 ## Overview
+<!-- http://lioneltabourier.fr/networks.html and https://www-complexnetworks.lip6.fr/~magnien/  -->
 
-I am a PhD student in complex networks in Paris. I graduated from ENS Lyon in computer sciences and my main research interests are graph theory, complex systems and data analysis.
-
-The PhD project began in September 2020 at [LIP6](https://www.lip6.fr/) Sorbonne and [CRI](https://interactiondatalab.com/) Paris under the supervision of Lionel Tabourier and Clémence Magnien. It focusses on _sorting nodes to scale to massive real-world networks_: as we have access to arbitrarily big networks collected from various fields (biology, social ties, trade, web), graph algorithms can only scale if they have linear complexity. One promising idea is to sort nodes according to specific graph properties (degree, centrality, degeneracy...) to improve experimental run-time and theoretical bounds.
+I am a PhD student in the computer science lab [LIP6](https://www.lip6.fr/) of Sorbonne University in Paris, under the supervision of Lionel Tabourier and Clémence Magnien in the [Complex Networks](https://www.complexnetworks.fr/) team.
+I'm interested in scalable graph algorithms applied on real-world datasets, with a focus on finding node orderings that improve specific algorithms in practice. I also work on citation networks and scientific trajectories as a visiting student in a [data analysis lab](https://interactiondatalab.com/). Before that, I graduated from [ENS Lyon](http://www.ens-lyon.fr/LIP/) in computer sciences and complex systems.
 
 Feel free to contact me by email!
 
-## Research reports and publications
+## Publications and talks
+* _Tailored vertex ordering for faster triangle listing in large graphs_. Fabrice Lécuyer, Louis Jachiet, Clémence Magnien, Lionel Tabourier ([MLG](http://www.mlgworkshop.org/) workshop of [KDD](https://www.kdd.org/kdd2022/) 2022)
 
-* Fabrice Lécuyer, Maximilien Danisch, Lionel Tabourier. _[Replication] Speedup Graph Processing by Graph Ordering_ ([ReScience](http://rescience.github.io), 2021) [[DOI](https://doi.org/10.5281/zenodo.4836230)]
+* [_Grands réseaux complexes : mettre de l’ordre dans les triangles_](/public/pdf/Lecuyer_2022_FRCCS.pdf). Fabrice Lécuyer, Louis Jachiet, Clémence Magnien, Lionel Tabourier ([FRCCS](https://iscpif.fr/frccs2022/) 2022)
 
-* Fabrice Lécuyer, Rémy Cazabet. _Community detection in fine-grained dynamical networks_ (Internship in Lyon, 2020) [[report](/public/pdf/Lecuyer_2020_Dynamical-community-detection.pdf)]
+* [_[Replication] Speedup Graph Processing by Graph Ordering_](https://doi.org/10.5281/zenodo.4836230). Fabrice Lécuyer, Maximilien Danisch, Lionel Tabourier ([ReScience](http://rescience.github.io), 2021)
 
-* Fabrice Lécuyer, Marc Santolini, Amar Dhand, Sean Cornelius, Albert-László Barabási. _Model of the Hospital Network and Health Trajectories_ (Internship in Boston, 2017) [[report](/public/pdf/Lecuyer_2017_Hospital-network-model.pdf)]
+## Research reports
+* [_Community detection in fine-grained dynamical networks_](/public/pdf/Lecuyer_2020_Dynamical-community-detection.pdf). Fabrice Lécuyer, Rémy Cazabet (Internship in Lyon, 2020)
 
-* Fabrice Lécuyer, Olivier Roux. _Introduction de données quantitatives dans la modélisation qualitative des régulations biologiques_ (Internship in Nantes, 2016) [[report](/public/pdf/Lecuyer_2016_Reseaux-regulation-biologique.pdf)]
+* [_Model of the Hospital Network and Health Trajectories_](/public/pdf/Lecuyer_2017_Hospital-network-model.pdf). Fabrice Lécuyer, Marc Santolini, Amar Dhand, Sean Cornelius, Albert-László Barabási (Internship in Boston, 2017)
+
+* [_Introduction de données quantitatives dans la modélisation qualitative des régulations biologiques_](/public/pdf/Lecuyer_2016_Reseaux-regulation-biologique.pdf). Fabrice Lécuyer, Olivier Roux.  (Internship in Nantes, 2016)
 
 
 ## Teaching
 
-* 2020, 2021: Python, L1 [(instructions)](https://semestriel.framapad.org/p/python-scfo135).
-* 2021: Algorithmique, L2.
+* 2020, 2021, 2022: Python, L1.
+* 2021, 2022: Algorithmique, L2.
 * 2019: oral interrogations in physics, PCSI/PC.
 
 ## Other interests
