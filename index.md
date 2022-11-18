@@ -16,7 +16,7 @@ Feel free to contact me by email!
 
 * [_Certifier la qualité d’une heuristique sur graphs réels_](/public/pdf/Lecuyer_2022_JGA.pdf). Fabrice Lécuyer ([JGA](https://jga2022.sciencesconf.org/) 2022)
 
-* [_Tailored vertex ordering for faster triangle listing in large graphs_](https://arxiv.org/abs/2203.04774). Fabrice Lécuyer, Louis Jachiet, Clémence Magnien, Lionel Tabourier ([MLG](http://www.mlgworkshop.org/) workshop of [KDD](https://www.kdd.org/kdd2022/) 2022)
+* [_Tailored vertex ordering for faster triangle listing in large graphs_](https://arxiv.org/abs/2203.04774). Fabrice Lécuyer, Louis Jachiet, Clémence Magnien, Lionel Tabourier ([ALENEX](https://www.siam.org/conferences/cm/conference/alenex23) 2023 and [MLG](http://www.mlgworkshop.org/) workshop of [KDD](https://www.kdd.org/kdd2022/) 2022)
 
 * [_Grands réseaux complexes : mettre de l’ordre dans les triangles_](/public/pdf/Lecuyer_2022_FRCCS.pdf). Fabrice Lécuyer, Louis Jachiet, Clémence Magnien, Lionel Tabourier ([FRCCS](https://iscpif.fr/frccs2022/) 2022)
 
