@@ -12,6 +12,10 @@ I'm interested in scalable graph algorithms applied on real-world datasets, with
 Feel free to contact me by email!
 
 ## Publications and talks
+* [_Quality certification of heuristics on real-world graphs_](/public/pdf/Lecuyer_2022_Quality-certification.pdf). Fabrice Lécuyer (submitted 2022)
+
+* [_Certifier la qualité d’une heuristique sur graphs réels_](/public/pdf/Lecuyer_2022_JGA.pdf). Fabrice Lécuyer ([JGA](https://jga2022.sciencesconf.org/) 2022)
+
 * [_Tailored vertex ordering for faster triangle listing in large graphs_](https://arxiv.org/abs/2203.04774). Fabrice Lécuyer, Louis Jachiet, Clémence Magnien, Lionel Tabourier ([MLG](http://www.mlgworkshop.org/) workshop of [KDD](https://www.kdd.org/kdd2022/) 2022)
 
 * [_Grands réseaux complexes : mettre de l’ordre dans les triangles_](/public/pdf/Lecuyer_2022_FRCCS.pdf). Fabrice Lécuyer, Louis Jachiet, Clémence Magnien, Lionel Tabourier ([FRCCS](https://iscpif.fr/frccs2022/) 2022)
@@ -23,7 +27,7 @@ Feel free to contact me by email!
 
 * [_Model of the Hospital Network and Health Trajectories_](/public/pdf/Lecuyer_2017_Hospital-network-model.pdf). Fabrice Lécuyer, Marc Santolini, Amar Dhand, Sean Cornelius, Albert-László Barabási (Internship in Boston, 2017)
 
-* [_Introduction de données quantitatives dans la modélisation qualitative des régulations biologiques_](/public/pdf/Lecuyer_2016_Reseaux-regulation-biologique.pdf). Fabrice Lécuyer, Olivier Roux.  (Internship in Nantes, 2016)
+* [_Introduction de données quantitatives dans la modélisation qualitative des régulations biologiques_](/public/pdf/Lecuyer_2016_Reseaux-regulation-biologique.pdf). Fabrice Lécuyer, Olivier Roux (Internship in Nantes, 2016)
 
 
 ## Teaching
