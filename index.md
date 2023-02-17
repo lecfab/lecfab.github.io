@@ -14,9 +14,9 @@ Feel free to contact me by email!
 <!--  | where:"ref", page.ref | sort: 'lang' -->
 {% assign publis=site.data.academia %}
 {% for publi in publis %}
-* {% if publi.link %} [_{{publi.title}}_]({{publi.link}}), {% else %} _{{publi.title}}_, {{% endif %}}
+* {% if publi.link %} [_{{publi.title}}_]({{publi.link}}), {% else %} _{{publi.title}}_, {% endif %}
 {{publi.published}} {{publi.year}}.
-{% if publi.authors %} {{publi.authors}}. {{% endif %}}
+{% if publi.authors %} {{publi.authors}}. {% endif %}
 {{publi.comment}}
 {% endfor %}
 
