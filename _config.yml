@@ -60,14 +60,15 @@ data:
     # ------------------------- academia -------------------------
     academia:
         - title: 'Seminar: Ordering nodes to scale to massive real-world networks'
-          published: Laboratory for Web Algorithmics, University of Milan, Italy
           year: 2023
+          link: https://www.di.unimi.it/ecm/home/aggiornamenti-e-archivi/tutte-le-notizie/content/ordering-nodes-to-scale-to-massive-real-world-networks.0000.UNIMIDIRE-102347
+          comment: Invited by the Lab for Web Algorithmics, University of Milan, Italy.
           fr:
             title: "Séminaire : Ordonner les nœuds pour passer à l'échelle sur les graphes réels"
             published: Laboratoire d'Algorithmique du Web, Université de Milan, Italie
 
         - title: Quality certification of heuristics on real-world graphs
-          authors: Fabrice~Lécuyer
+          authors: Fabrice Lécuyer
           published: unpublished
           year: 2023
           link: https://fabrice.lecuyer.me/public/pdf/Lecuyer_2022_Quality-certification.pdf
@@ -75,17 +76,17 @@ data:
           fr:
               title: Certifier la qualité d’une heuristique sur des graphes réels.
               published: non publié
-              comment: "Présenté à [JGA'22](https://jga2022.sciencesconf.org) [[résumé](https://fabrice.lecuyer.me/public/pdf/Lecuyer_2022_JGA.pdf)]"
+              comment: "Présenté à [JGA'22](https://jga2022.sciencesconf.org) [[résumé](https://fabrice.lecuyer.me/public/pdf/Lecuyer_2022_JGA.pdf)]."
 
         - title: Charting mobility patterns in the scientific knowledge landscape
-          authors: Chakresh~Kumar~Singh, Liubov~Tupikina, Fabrice~Lécuyer, Michele~Starnini, Marc~Santolini
+          authors: Chakresh Kumar Singh, Liubov Tupikina, Fabrice Lécuyer, Michele Starnini, Marc Santolini
           published: unpublished
           year: 2023
           fr:
               published: non publié
 
         - title: Tailored vertex ordering for faster triangle listing in large graphs
-          authors: Fabrice~Lécuyer, Louis~Jachiet, Clémence~Magnien, Lionel~Tabourier
+          authors: Fabrice Lécuyer, Louis Jachiet, Clémence Magnien, Lionel Tabourier
           published: ALENEX
           year: 2023
           link: https://doi.org/10.48550/arXiv.2203.04774
@@ -99,7 +100,7 @@ data:
                 et au workshop [MLG](http://www.mlgworkshop.org/) de KDD'22."
 
         - title: "[Replication] Speedup Graph Processing by Graph Ordering"
-          authors: Fabrice~Lécuyer, Maximilien~Danisch, Lionel~Tabourier
+          authors: Fabrice Lécuyer, Maximilien Danisch, Lionel Tabourier
           published: ReScience
           year: 2021
           link: https://doi.org/10.5281/zenodo.4836230
