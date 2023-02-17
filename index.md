@@ -11,6 +11,8 @@ I'm interested in scalable graph algorithms applied on real-world datasets, with
 Feel free to contact me by email! [read]({{site.paperfile}})
 
 ## Publications and talks
+
+
 * [_Quality certification of heuristics on real-world graphs_](/public/pdf/Lecuyer_2022_Quality-certification.pdf). Fabrice Lécuyer (submitted 2022)
 
 * [_Certifier la qualité d’une heuristique sur graphs réels_](/public/pdf/Lecuyer_2022_JGA.pdf). Fabrice Lécuyer ([JGA](https://jga2022.sciencesconf.org/) 2022)
