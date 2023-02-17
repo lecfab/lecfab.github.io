@@ -40,3 +40,5 @@ author:
 plugins:
  # - jekyll-paginate
   - jekyll-gist
+
+paperfile: /public/pdf/Lecuyer_2016_Reseaux-regulation-biologique.pdf
