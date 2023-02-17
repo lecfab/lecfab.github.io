@@ -21,12 +21,9 @@ Feel free to contact me by email!
 
 ## Research reports
 {% assign internships=site.data.research %}
-{% for internship in internships %}
-* {% if internship.file %} [_{{internship.title}}_]({{internship.file}}), {% else %} _{{internship.title}}_, {% endif %}
-{{internship.year}}.
-Internship in {{internship.location}} with {{internship.supervisors}}
-{{publi.published}} {{publi.year}}.
-{% if publi.authors %} {{publi.authors}}. {% endif %} {{publi.comment}}
+{% for internship in internships | where_exp: "item", "item.file != empty" %}
+*  [_{{internship.title}}_]({{internship.file}}), {{internship.year}}.
+Internship in {{internship.location}} with {{internship.supervisors}}.
 {% endfor %}
 
 ok

@@ -180,6 +180,7 @@ data:
             - Find generative models for these properties.
 
         - title: Dynamic community detection
+          fulltitle: Community detection in fine-grained dynamical networks
           lab: Data Science Team, LIRIS
           location: Lyon
           dates: 2020
@@ -191,6 +192,7 @@ data:
             Confront them to various quality functions of the literature. Design scalable methods, test them on real and synthetic datasets.
 
         - title: Hospital network modelling
+          fulltitle: Model of the Hospital Network and Health Trajectories
           lab: Barabási lab, Northeastern
           location: Boston
           dates: 2017
@@ -211,11 +213,12 @@ data:
             of expression with linguists. Involve many health professionals and participate in two hackathons.
 
         - title: Biological regulatory networks
+          fulltitle: Introduction de données quantitatives dans la modélisation qualitative des régulations biologiques
           lab: Institute in Cybernetic
           location: Nantes
           dates: 2016
           duration: two months
-          supervisors: Marc Santolini, Amar Dhand, Sean Cornelius, Albert-László Barabási
+          supervisors: Olivier Roux
           file: https://fabrice.lecuyer.me/public/pdf/Lecuyer_2016_Reseaux-regulation-biologique.pdf
           description: >
             Analyse gene interaction networks and theoretical inference graphs. Parse real data about protein activation
