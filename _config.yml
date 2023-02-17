@@ -40,3 +40,279 @@ author:
 plugins:
  # - jekyll-paginate
   - jekyll-gist
+
+
+
+data:
+    lastname: Lécuyer
+    firstname: Fabrice
+    phone: +33 (0)6 81 78 29 94
+    email:
+        pro: fabrice.lecuyer@lip6.fr
+        perso: lecfab@gmx.net
+    website: http://fabrice.lecuyer.me
+    title:
+        en: PhD Student in Complex Networks at LIP6 Sorbonne
+        fr: Doctorant en informatique au LIP6, Sorbonne Université
+    # photo, CV...
+
+
+    # ------------------------- academia -------------------------
+    academia:
+        - title: 'Seminar: Ordering nodes to scale to massive real-world networks'
+          published: Laboratory for Web Algorithmics, University of Milan, Italy
+          year: 2023
+          fr:
+            title: "Séminaire : Ordonner les nœuds pour passer à l'échelle sur les graphes réels"
+            published: Laboratoire d'Algorithmique du Web, Université de Milan, Italie
+
+        - title: Quality certification of heuristics on real-world graphs
+          authors: Fabrice~Lécuyer
+          published: unpublished
+          year: 2023
+          link: "[[PDF](https://fabrice.lecuyer.me/public/pdf/Lecuyer_2022_Quality-certification.pdf)]"
+          comment: "Presented at: [JGA'22](https://jga2022.sciencesconf.org)."
+          fr:
+              title: Certifier la qualité d’une heuristique sur des graphes réels.
+              published: non publié
+              comment: "Présenté à [JGA'22](https://jga2022.sciencesconf.org) [[résumé](https://fabrice.lecuyer.me/public/pdf/Lecuyer_2022_JGA.pdf)]"
+
+        - title: Charting mobility patterns in the scientific knowledge landscape
+          authors: Chakresh~Kumar~Singh, Liubov~Tupikina, Fabrice~Lécuyer, Michele~Starnini, Marc~Santolini
+          published: unpublished
+          year: 2023
+          fr:
+              published: non publié
+
+        - title: Tailored vertex ordering for faster triangle listing in large graphs
+          authors: Fabrice~Lécuyer, Louis~Jachiet, Clémence~Magnien, Lionel~Tabourier
+          published: ALENEX
+          year: 2023
+          link: "[[DOI](https://doi.org/10.48550/arXiv.2203.04774)]"
+          comment: >
+            "Presented at: [FRCCS'22](https://iscpif.fr/frccs2022/) conference,
+            [MLG](http://www.mlgworkshop.org/) workshop of KDD'22 conference."
+          fr:
+              title: "Grands réseaux complexes : mettre de l'ordre dans les triangles"
+              comment: >
+                "Présenté à la conférence [FRCCS'22](https://iscpif.fr/frccs2022/) [[résumé](https://fabrice.lecuyer.me/public/pdf/Lecuyer_2022_FRCCS.pdf)]
+                et au workshop [MLG](http://www.mlgworkshop.org/) de KDD'22."
+
+        - title: "[Replication] Speedup Graph Processing by Graph Ordering"
+          authors: Fabrice~Lécuyer, Maximilien~Danisch, Lionel~Tabourier
+          published: ReScience
+          year: 2021
+          link: "[[DOI](https://doi.org/10.5281/zenodo.4836230)]"
+
+    # ------------------------- education -------------------------
+    education:
+        - title: Master in Computer Science
+          school: ENS Lyon
+          dates: 2015--2020
+          country: France
+          description: >
+            - Major in theoretical computer sciences: graph theory, algorithmic, probability, complexity, algebra...
+            - Minor in complex systems: network theory, epidemiology, thermodynamics, data processing...
+          fr:
+              title: Master d'informatique
+              school: École Normale Supérieure de Lyon
+              description: >
+                - Majeure en informatique théorique : algorithmique, théorie des graphes, probabilités, complexité, algèbre...
+                - Mineure en systèmes complexes : réseaux, épidémiologie, thermodynamique, science des données...
+
+        - title: Gap year for travels and personal projects
+          dates: 2018--2019
+          description: >
+            Months-long backpacking experiences with minimum planning and equipment,
+            to get a sight of different landscapes, political systems and languages,
+            to meet people with different priorities and customs.
+          fr:
+              title: Gap year for travels and personal projects
+              dates: 2018--2019
+              description: >
+                Voyages sac-au-dos de plusieurs mois pour découvrir d'autres paysages, langues et systèmes politiques,
+                et pour rencontrer des personnes aux coutumes et priorités variées.
+
+        - title: "Erasmus: Bachelor in Physics"
+          school: Ludwig Maximilian Universität
+          dates: 2017--2018
+          country: Munich, Germany
+          description: "Major: theoretical and applied physics. Minor: German language."
+          fr:
+              title: "Erasmus : Licence de physique"
+              country: Munich, Allemagne
+              description: "Majeure : physique théorique et appliquée. Mineure : langue allemande."
+
+        - title: Classes préparatoires in Science
+          school: Lycée Saint-Louis
+          dates: 2013--2015
+          country: Paris, France
+          description: Intensive preparation in maths, physics and computer sciences for competitive admission into leading schools of science and engineering. Admission in *ENS Lyon*, top-ranking research-oriented school.
+          fr:
+              title: Classes préparatoires MPSI/MP*
+              description: Préparation intensive en maths, phisique et informatique pour préparer les concours d'entrée en école d'ingéniérie ; admission à l'ENS Lyon.
+
+        - title: Baccalauréat of Science
+          school: Lycée Corot
+          dates: 2013
+          country: Paris area, France
+          description: French high-school certificate with highest honour. Award in the Olympiad of mathematics.
+          fr:
+              title: Baccalauréat scientifique
+              description: Mention très bien avec félicitations ; récompense aux Olympiades de mathématiques.
+
+    # ------------------------- research -------------------------
+    research:
+        - title: Ordering nodes to scale to massive real-world networks
+          type: PhD project
+          dates: 2020 -- ongoing
+          supervisors: "[Lionel Tabourier](http://lioneltabourier.fr/reseaux.html) & [Clémence Magnien](https://lip6.fr/Clemence.Magnien/)"
+          description: >
+            As we have access to arbitrarily big networks collected from various fields (biology, social ties, trade, web),
+            graph algorithms can only scale if they have quasi-linear complexity. Ordering the nodes of the graph according
+            to specific graph properties such as degree, centrality, or degeneracy can improve experimental runtime,
+            theoretical bounds and the resulting quality of an algorithm.
+            - Implement and compare existing orders.
+            - Define new orders leveraging properties of real graphs.
+            - Reduce complexity of algorithms for networks with such properties.
+            - Find generative models for these properties.
+
+        - title: Dynamic community detection
+          lab: Data Science Team, LIRIS
+          location: Lyon
+          dates: 2020
+          duration: six months
+          supervisors: Rémy Cazabet
+          file: "[[report](https://fabrice.lecuyer.me/public/pdf/Lecuyer_2020_Dynamical-community-detection.pdf)]"
+          description: >
+            Detect and analyse communities in fine-grained dynamical networks. Transpose static models to link streams.
+            Confront them to various quality functions of the literature. Design scalable methods, test them on real and synthetic datasets.
+
+        - title: Hospital network modelling
+          lab: Barabási lab, Northeastern
+          location: Boston
+          dates: 2017
+          duration: three months
+          supervisors: Marc Santolini, Amar Dhand, Sean Cornelius, Albert-László Barabási
+          file: "[[report](https://fabrice.lecuyer.me/public/pdf/Lecuyer_2017_Hospital-network-model.pdf)]"
+          description: >
+            Model health trajectories based on millions of hospital admissions. Manipulate different models of mobility such as gravity
+            or radiation, and compare them to census data. Study the correlation between social groups and specific diseases.
+
+        - title: Disability communication software
+          lab: project with ten Master students
+          location: Lyon
+          dates: 2016
+          duration: one year
+          description: >
+            Design a communication system for people with paralysis. Program electroencephalography headsets, define fast means
+            of expression with linguists. Involve many health professionals and participate in two hackathons.
+
+        - title: Biological regulatory networks
+          lab: Institute in Cybernetic
+          location: Nantes
+          dates: 2016
+          duration: two months
+          supervisors: Marc Santolini, Amar Dhand, Sean Cornelius, Albert-László Barabási
+          file: "[[report in French](https://fabrice.lecuyer.me/public/pdf/Lecuyer_2016_Reseaux-regulation-biologique.pdf)]"
+          description: >
+            Analyse gene interaction networks and theoretical inference graphs. Parse real data about protein activation
+            and inhibition, simulate the behaviour of multi-genes systems.
+
+    # % \cventry{2014\\one year}{Web Network Simulation}{}{Paris}{project during \textit{Classes préparatoires}
+    # % Use graph theory to model a computer network and its resilience under perturbation. Perform several oral presentations.
+
+
+    # ------------------------- work -------------------------
+    work:
+        - title: PhD students representative
+          firm: LIP6
+          location: Paris
+          dates: 2021--2023
+          description: Meet with the direction of the lab to work on administrative and scientific issues that PhD students face.
+
+        - title: Teaching assistant
+          firm: Sorbonne Université
+          location: Paris
+          dates: 2020--2023
+          description: >
+            - Algorithmics: complexity, iteration and recursion, binary trees, graphs.
+            - Python101: learn mathematical programming using a restricted version of Python.
+
+        - title: Oral examiner in theoretical physics
+          firm: Prépa CPE Chartreux
+          location: Lyon
+          dates: 2019--2020
+
+        - title: Frontend Software Developer
+          firm: Carsync Fleet Management, Vispiron GmbH
+          location: Munich
+          dates: 2017--2018
+          description: Develop a new Angular2 product interface with a team of full-time developers.
+
+        - title: Web developer freelance
+          firm: online game Terre de Feu
+          dates: 2009--2013
+          description: Design and develop backend and frontend from scratch. Manage a community of hundreds of players.
+
+    # ------------------------- awards -------------------------
+    # ------------------------- skills -------------------------
+    skills:
+        - title: Computer
+          strong:
+              - c++
+              - python
+              - js
+              - angular
+              - sql
+              - html5
+              - css
+              - php
+              - git
+              - c
+              - \LaTeX
+          weak:
+              - caml
+              - linux
+              - excel
+          fr:
+              title: Informatique
+
+        - title: Languages
+          strong:
+              - French (native)
+              - English (fluent c2)
+          weak:
+              - German (advanced c1)
+              - Spanish (intermediate b2)
+          fr:
+              strong:
+                  - français (langue natale)
+                  - anglais (bilingue c2)
+              weak:
+                  - allemand (fluide c1)
+                  - espagnol (avancé b2)
+
+        - title: Music
+          weak:
+              - piano teacher
+              - classical singer (Munich Unichor, Paris Music Academy)
+              - violist, accordionist
+          fr:
+              title: Musique
+              weak:
+                  - prof de piano
+                  - chanteur classique (Unichor de Munich, Académie de musique de Paris)
+                  - altiste, accordéoniste
+
+        - title: Interests
+          weak:
+              - sustainability
+              - international relations
+              - linguistics
+          fr:
+              title: Centres d'intérêt
+              weak:
+                  - sobriété énergétique
+                  - relations internationales
+                  - linguistique
