@@ -61,8 +61,9 @@ data:
     academia:
         - title: 'Seminar: Ordering nodes to scale to massive real-world networks'
           year: 2023
-          link: https://www.di.unimi.it/ecm/home/aggiornamenti-e-archivi/tutte-le-notizie/content/ordering-nodes-to-scale-to-massive-real-world-networks.0000.UNIMIDIRE-102347
-          comment: Invited by the Lab for Web Algorithmics, University of Milan, Italy.
+          comment: >
+            [Invitation](https://www.di.unimi.it/ecm/home/aggiornamenti-e-archivi/tutte-le-notizie/content/ordering-nodes-to-scale-to-massive-real-world-networks.0000.UNIMIDIRE-102347)
+            from the Lab for Web Algorithmics, University of Milan, Italy.
           fr:
             title: "Séminaire : Ordonner les nœuds pour passer à l'échelle sur les graphes réels"
             comment: Invitation par le Laboratoire d'Algorithmique du Web, Université de Milan, Italie.
@@ -87,17 +88,17 @@ data:
 
         - title: Tailored vertex ordering for faster triangle listing in large graphs
           authors: Fabrice Lécuyer, Louis Jachiet, Clémence Magnien, Lionel Tabourier
-          published: ALENEX
+          published: "[ALENEX](https://www.siam.org/conferences/cm/conference/alenex23)"
           year: 2023
           link: https://doi.org/10.48550/arXiv.2203.04774
           comment: >
-            "Presented at: [FRCCS'22](https://iscpif.fr/frccs2022/) conference,
-            [MLG](http://www.mlgworkshop.org/) workshop of KDD'22 conference."
+            Presented at: [FRCCS'22](https://iscpif.fr/frccs2022/) conference,
+            [MLG](http://www.mlgworkshop.org/) workshop of KDD'22 conference.
           fr:
               title: "Grands réseaux complexes : mettre de l'ordre dans les triangles"
               comment: >
-                "Présenté à la conférence [FRCCS'22](https://iscpif.fr/frccs2022/) [[résumé](https://fabrice.lecuyer.me/public/pdf/Lecuyer_2022_FRCCS.pdf)]
-                et au workshop [MLG](http://www.mlgworkshop.org/) de KDD'22."
+                Présenté à la conférence [FRCCS'22](https://iscpif.fr/frccs2022/) [[résumé](https://fabrice.lecuyer.me/public/pdf/Lecuyer_2022_FRCCS.pdf)]
+                et au workshop [MLG](http://www.mlgworkshop.org/) de KDD'22.
 
         - title: "[Replication] Speedup Graph Processing by Graph Ordering"
           authors: Fabrice Lécuyer, Maximilien Danisch, Lionel Tabourier

@@ -16,8 +16,7 @@ Feel free to contact me by email!
 {% for publi in publis %}
 * {% if publi.link %} [_{{publi.title}}_]({{publi.link}}), {% else %} _{{publi.title}}_, {% endif %}
 {{publi.published}} {{publi.year}}.
-{% if publi.authors %} {{publi.authors}}. {% endif %}
-{{publi.comment}}
+{% if publi.authors %} {{publi.authors}}. {% endif %} {{publi.comment}}
 {% endfor %}
 
 * [_Quality certification of heuristics on real-world graphs_](/public/pdf/Lecuyer_2022_Quality-certification.pdf). Fabrice Lécuyer (submitted 2022)
