@@ -12,10 +12,9 @@ Feel free to contact me by email! ({{site.data.title.fr}})
 
 ## Publications and talks
 <!--  | where:"ref", page.ref | sort: 'lang' -->
-* oui
 {% assign publis=site.data.academia %}
 {% for publi in publis %}
-* {{publi.title}}, {{publi.link}}. {{publi.authors}} ({{publi.published}}) {{publi.year}}
+* [_{{publi.title}}_]({{publi.link}}), {{publi.year}}. {{publi.authors}} ({{publi.published}} {{publi.comment}}) 
 {% endfor %}
 
 * [_Quality certification of heuristics on real-world graphs_](/public/pdf/Lecuyer_2022_Quality-certification.pdf). Fabrice Lécuyer (submitted 2022)
