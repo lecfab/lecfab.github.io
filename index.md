@@ -8,11 +8,12 @@ title: Home
 I am a PhD student in the computer science lab [LIP6](https://www.lip6.fr/) of Sorbonne University in Paris, under the supervision of Lionel Tabourier and Clémence Magnien in the [Complex Networks](https://www.complexnetworks.fr/) team.
 I'm interested in scalable graph algorithms applied on real-world datasets, with a focus on finding node orderings that improve specific algorithms in practice. I also work on citation networks and scientific trajectories as a visiting student in a [data analysis lab](https://interactiondatalab.com/). Before that, I graduated from [ENS Lyon](http://www.ens-lyon.fr/LIP/) in computer sciences and complex systems.
 
-Feel free to contact me by email! [read]({{site.data.cv.title.fr}})
+Feel free to contact me by email! ({{site.data.cv.title.fr}})
 
 ## Publications and talks
 <!--  | where:"ref", page.ref | sort: 'lang' -->
-{% assign publis=site.data.academia %}
+* oui
+{% assign publis=site.data.cv.academia %}
 {% for publi in publis %}
 * {{publi.title}}, {{publi.link}}. {{publi.authors}} ({{publi.published}}) {{publi.year}}
 {% endfor %}
