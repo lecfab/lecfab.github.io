@@ -65,7 +65,7 @@ data:
           comment: Invited by the Lab for Web Algorithmics, University of Milan, Italy.
           fr:
             title: "Séminaire : Ordonner les nœuds pour passer à l'échelle sur les graphes réels"
-            published: Laboratoire d'Algorithmique du Web, Université de Milan, Italie
+            comment: Invitation par le Laboratoire d'Algorithmique du Web, Université de Milan, Italie.
 
         - title: Quality certification of heuristics on real-world graphs
           authors: Fabrice Lécuyer
