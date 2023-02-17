@@ -22,7 +22,7 @@ Feel free to contact me by email!
 ## Research reports
 {% assign internships=site.data.research %}
 {% for internship in internships | where_exp: "item", "item.file != empty" %}
-*  [_{{internship.title}}_]({{internship.file}}), {{internship.year}}.
+*  [_{{internship.title}}_]({{internship.file}}), {{internship.dates}}.
 Internship in {{internship.location}} with {{internship.supervisors}}.
 {% endfor %}
 
