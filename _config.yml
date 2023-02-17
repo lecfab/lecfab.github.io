@@ -70,7 +70,7 @@ data:
           authors: Fabrice~Lécuyer
           published: unpublished
           year: 2023
-          link: "[[PDF](https://fabrice.lecuyer.me/public/pdf/Lecuyer_2022_Quality-certification.pdf)]"
+          link: https://fabrice.lecuyer.me/public/pdf/Lecuyer_2022_Quality-certification.pdf
           comment: "Presented at: [JGA'22](https://jga2022.sciencesconf.org)."
           fr:
               title: Certifier la qualité d’une heuristique sur des graphes réels.
@@ -88,7 +88,7 @@ data:
           authors: Fabrice~Lécuyer, Louis~Jachiet, Clémence~Magnien, Lionel~Tabourier
           published: ALENEX
           year: 2023
-          link: "[[DOI](https://doi.org/10.48550/arXiv.2203.04774)]"
+          link: https://doi.org/10.48550/arXiv.2203.04774
           comment: >
             "Presented at: [FRCCS'22](https://iscpif.fr/frccs2022/) conference,
             [MLG](http://www.mlgworkshop.org/) workshop of KDD'22 conference."
@@ -102,7 +102,7 @@ data:
           authors: Fabrice~Lécuyer, Maximilien~Danisch, Lionel~Tabourier
           published: ReScience
           year: 2021
-          link: "[[DOI](https://doi.org/10.5281/zenodo.4836230)]"
+          link: https://doi.org/10.5281/zenodo.4836230
 
     # ------------------------- education -------------------------
     education:
