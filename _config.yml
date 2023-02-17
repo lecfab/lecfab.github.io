@@ -102,7 +102,7 @@ data:
 
         - title: "[Replication] Speedup Graph Processing by Graph Ordering"
           authors: Fabrice Lécuyer, Maximilien Danisch, Lionel Tabourier
-          published: ReScience
+          published: "[ReScience](http://rescience.github.io)"
           year: 2021
           link: https://doi.org/10.5281/zenodo.4836230
 
@@ -185,7 +185,7 @@ data:
           dates: 2020
           duration: six months
           supervisors: Rémy Cazabet
-          file: "[[report](https://fabrice.lecuyer.me/public/pdf/Lecuyer_2020_Dynamical-community-detection.pdf)]"
+          file: https://fabrice.lecuyer.me/public/pdf/Lecuyer_2020_Dynamical-community-detection.pdf
           description: >
             Detect and analyse communities in fine-grained dynamical networks. Transpose static models to link streams.
             Confront them to various quality functions of the literature. Design scalable methods, test them on real and synthetic datasets.
@@ -196,7 +196,7 @@ data:
           dates: 2017
           duration: three months
           supervisors: Marc Santolini, Amar Dhand, Sean Cornelius, Albert-László Barabási
-          file: "[[report](https://fabrice.lecuyer.me/public/pdf/Lecuyer_2017_Hospital-network-model.pdf)]"
+          file: https://fabrice.lecuyer.me/public/pdf/Lecuyer_2017_Hospital-network-model.pdf
           description: >
             Model health trajectories based on millions of hospital admissions. Manipulate different models of mobility such as gravity
             or radiation, and compare them to census data. Study the correlation between social groups and specific diseases.
@@ -216,7 +216,7 @@ data:
           dates: 2016
           duration: two months
           supervisors: Marc Santolini, Amar Dhand, Sean Cornelius, Albert-László Barabási
-          file: "[[report in French](https://fabrice.lecuyer.me/public/pdf/Lecuyer_2016_Reseaux-regulation-biologique.pdf)]"
+          file: https://fabrice.lecuyer.me/public/pdf/Lecuyer_2016_Reseaux-regulation-biologique.pdf
           description: >
             Analyse gene interaction networks and theoretical inference graphs. Parse real data about protein activation
             and inhibition, simulate the behaviour of multi-genes systems.

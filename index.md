@@ -19,17 +19,18 @@ Feel free to contact me by email!
 {% if publi.authors %} {{publi.authors}}. {% endif %} {{publi.comment}}
 {% endfor %}
 
-* [_Quality certification of heuristics on real-world graphs_](/public/pdf/Lecuyer_2022_Quality-certification.pdf). Fabrice Lécuyer (submitted 2022)
-
-* [_Certifier la qualité d’une heuristique sur graphs réels_](/public/pdf/Lecuyer_2022_JGA.pdf). Fabrice Lécuyer ([JGA](https://jga2022.sciencesconf.org/) 2022)
-
-* [_Tailored vertex ordering for faster triangle listing in large graphs_](https://arxiv.org/abs/2203.04774). Fabrice Lécuyer, Louis Jachiet, Clémence Magnien, Lionel Tabourier ([ALENEX](https://www.siam.org/conferences/cm/conference/alenex23) 2023 and [MLG](http://www.mlgworkshop.org/2022/) workshop of [KDD](https://www.kdd.org/kdd2022/) 2022)
-
-* [_Grands réseaux complexes : mettre de l’ordre dans les triangles_](/public/pdf/Lecuyer_2022_FRCCS.pdf). Fabrice Lécuyer, Louis Jachiet, Clémence Magnien, Lionel Tabourier ([FRCCS](https://iscpif.fr/frccs2022/) 2022)
-
-* [_[Replication] Speedup Graph Processing by Graph Ordering_](https://doi.org/10.5281/zenodo.4836230). Fabrice Lécuyer, Maximilien Danisch, Lionel Tabourier ([ReScience](http://rescience.github.io), 2021)
-
 ## Research reports
+{% assign internships=site.data.research %}
+{% for internship in internships %}
+* {% if internship.file %} [_{{internship.title}}_]({{internship.file}}), {% else %} _{{internship.title}}_, {% endif %}
+{{internship.year}}.
+Internship in {{internship.location}} with {{internship.supervisors}}
+{{publi.published}} {{publi.year}}.
+{% if publi.authors %} {{publi.authors}}. {% endif %} {{publi.comment}}
+{% endfor %}
+
+ok
+
 * [_Community detection in fine-grained dynamical networks_](/public/pdf/Lecuyer_2020_Dynamical-community-detection.pdf). Fabrice Lécuyer, Rémy Cazabet (Internship in Lyon, 2020)
 
 * [_Model of the Hospital Network and Health Trajectories_](/public/pdf/Lecuyer_2017_Hospital-network-model.pdf). Fabrice Lécuyer, Marc Santolini, Amar Dhand, Sean Cornelius, Albert-László Barabási (Internship in Boston, 2017)
