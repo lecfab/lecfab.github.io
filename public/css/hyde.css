@@ -27,7 +27,7 @@
  * Update the foundational and global aspects of the page.
  */
 html {
-    font-family: Times, Georgia, "PT Sans", Helvetica, Arial, sans-serif;
+    font-family: "PT Serif", serif, Times;
 }
 
 @media (min-width: 48em) {
