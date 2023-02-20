@@ -42,7 +42,6 @@ plugins:
   - jekyll-gist
 
 
-
 data:
     lastname: Lécuyer
     firstname: Fabrice
@@ -51,14 +50,21 @@ data:
         pro: fabrice.lecuyer@lip6.fr
         perso: lecfab@gmx.net
     website: http://fabrice.lecuyer.me
-    title:
-        en: PhD Student in Complex Networks at LIP6 Sorbonne
-        fr: Doctorant en informatique au LIP6, Sorbonne Université
+    title: PhD Student in Complex Networks at LIP6 Sorbonne
+    fr:
+        title: Doctorant en informatique au LIP6, Sorbonne Université
     # photo, CV...
 
 
     # ------------------------- academia -------------------------
     academia:
+        # - title: "Future paper"
+        #   year: 2024
+        #   authors: Mehdi Naima, Fabrice Lécuyer
+        #   comment: will be sent to the DAWAK conference
+        #   fr:
+        #       title: "Papier du futur"
+        #       comment: Sera envoyé à DAWAK
         - title: 'Seminar: Ordering nodes to scale to massive real-world networks'
           year: 2023
           comment: >
@@ -66,7 +72,9 @@ data:
             from the Lab for Web Algorithmics, University of Milan, Italy.
           fr:
             title: "Séminaire : Ordonner les nœuds pour passer à l'échelle sur les graphes réels"
-            comment: Invitation par le Laboratoire d'Algorithmique du Web, Université de Milan, Italie.
+            comment: >
+                [Invitation](https://www.di.unimi.it/ecm/home/aggiornamenti-e-archivi/tutte-le-notizie/content/ordering-nodes-to-scale-to-massive-real-world-networks.0000.UNIMIDIRE-102347)
+                par le Laboratoire d'Algorithmique du Web, Université de Milan, Italie.
 
         - title: Quality certification of heuristics on real-world graphs
           authors: Fabrice Lécuyer
@@ -75,7 +83,7 @@ data:
           link: https://fabrice.lecuyer.me/public/pdf/Lecuyer_2022_Quality-certification.pdf
           comment: "Presented at: [JGA'22](https://jga2022.sciencesconf.org)."
           fr:
-              title: Certifier la qualité d’une heuristique sur des graphes réels.
+              title: Certifier la qualité d’une heuristique sur des graphes réels
               published: non publié
               comment: "Présenté à [JGA'22](https://jga2022.sciencesconf.org) [[résumé](https://fabrice.lecuyer.me/public/pdf/Lecuyer_2022_JGA.pdf)]."
 
@@ -113,14 +121,14 @@ data:
           dates: 2015--2020
           country: France
           description: >
-            - Major in theoretical computer sciences: graph theory, algorithmic, probability, complexity, algebra...
-            - Minor in complex systems: network theory, epidemiology, thermodynamics, data processing...
+            Major in theoretical computer sciences: graph theory, algorithmic, probability, complexity, algebra...
+            Minor in complex systems: network theory, epidemiology, thermodynamics, data processing...
           fr:
               title: Master d'informatique
               school: École Normale Supérieure de Lyon
               description: >
-                - Majeure en informatique théorique : algorithmique, théorie des graphes, probabilités, complexité, algèbre...
-                - Mineure en systèmes complexes : réseaux, épidémiologie, thermodynamique, science des données...
+                Majeure en informatique théorique : algorithmique, théorie des graphes, probabilités, complexité, algèbre...
+                Mineure en systèmes complexes : réseaux, épidémiologie, thermodynamique, science des données...
 
         - title: Gap year for travels and personal projects
           dates: 2018--2019
@@ -129,7 +137,7 @@ data:
             to get a sight of different landscapes, political systems and languages,
             to meet people with different priorities and customs.
           fr:
-              title: Gap year for travels and personal projects
+              title: Année de césure pour voyages et projets personnels
               dates: 2018--2019
               description: >
                 Voyages sac-au-dos de plusieurs mois pour découvrir d'autres paysages, langues et systèmes politiques,
@@ -149,12 +157,13 @@ data:
           school: Lycée Saint-Louis
           dates: 2013--2015
           country: Paris, France
-          description: Intensive preparation in maths, physics and computer sciences for competitive admission into leading schools of science and engineering. Admission in *ENS Lyon*, top-ranking research-oriented school.
+          description: Intensive preparation in maths, physics and computer sciences for competitive admission into leading schools of science and engineering. Admission in ENS Lyon, top-ranking research-oriented school.
           fr:
               title: Classes préparatoires MPSI/MP*
               description: Préparation intensive en maths, phisique et informatique pour préparer les concours d'entrée en école d'ingéniérie ; admission à l'ENS Lyon.
 
         - title: Baccalauréat of Science
+          display: False
           school: Lycée Corot
           dates: 2013
           country: Paris area, France
@@ -167,41 +176,74 @@ data:
     research:
         - title: Ordering nodes to scale to massive real-world networks
           type: PhD project
+          display: False
           dates: 2020 -- ongoing
           supervisors: "[Lionel Tabourier](http://lioneltabourier.fr/reseaux.html) & [Clémence Magnien](https://lip6.fr/Clemence.Magnien/)"
           description: >
             As we have access to arbitrarily big networks collected from various fields (biology, social ties, trade, web),
             graph algorithms can only scale if they have quasi-linear complexity. Ordering the nodes of the graph according
             to specific graph properties such as degree, centrality, or degeneracy can improve experimental runtime,
-            theoretical bounds and the resulting quality of an algorithm.
-            - Implement and compare existing orders.
-            - Define new orders leveraging properties of real graphs.
-            - Reduce complexity of algorithms for networks with such properties.
-            - Find generative models for these properties.
+            theoretical bounds and the resulting quality of an algorithm. This project consists in implementing and comparing
+            existing orders, and defining new orders that leverage properties of real-world graphs.
+          fr:
+              title: Ordonner les nœuds pour passer à l'échelle sur les graphes réels
+              display: False
+              dates: 2020 -- en cours
+              supervisors: "[Lionel Tabourier](http://lioneltabourier.fr/reseaux.html) & [Clémence Magnien](https://lip6.fr/Clemence.Magnien/)"
+              description: >
+                Les réseaux générés par les études de différents domaines (biologie, réseaux sociaux, web) sont de plus en plus grands,
+                ce qui impose aux algorithmes de graphes d'avoir une complexité quasi-linéaire pour passer à l'échelle.
+                Ordonner les nœuds du graphe selon des propriétés spécifiques du réseau peut améliorer la vitesse de certains algorithmes,
+                leurs bornes théoriques ou la qualité de leur résultat. Ce projet consiste à implémenter et comparer des ordres existants
+                (comme ceux par degré, dégénérescence ou centralité), et à en définir de nouveaux en exploitant les propriétés des réseaux
+                du monde réel.
 
-        - title: Dynamic community detection
-          fulltitle: Community detection in fine-grained dynamical networks
+        - shorttitle: Dynamic community detection
+          title: Community detection in fine-grained dynamical networks
           lab: Data Science Team, LIRIS
           location: Lyon
           dates: 2020
           duration: six months
           supervisors: Rémy Cazabet
-          file: https://fabrice.lecuyer.me/public/pdf/Lecuyer_2020_Dynamical-community-detection.pdf
+          link: https://fabrice.lecuyer.me/public/pdf/Lecuyer_2020_Dynamical-community-detection.pdf
           description: >
             Detect and analyse communities in fine-grained dynamical networks. Transpose static models to link streams.
             Confront them to various quality functions of the literature. Design scalable methods, test them on real and synthetic datasets.
+          fr:
+            shorttitle: Détection de communautés temporelles
+            lab: équipe Data Science, LIRIS
+            location: Lyon
+            dates: 2020
+            duration: six mois
+            supervisors: Rémy Cazabet
+            link: https://fabrice.lecuyer.me/public/pdf/Lecuyer_2020_Dynamical-community-detection.pdf
+            description: >
+                Détecter et analyser les communautés dans des réseaux à haute résolution temporelle. Transposer les modèles statiques aux flots de liens.
+                Confronter ces modèles aux nombreux résultats de la litérature. Construire des méthodes qui passent à l'échelle, et les tester sur des données réelles ou synthétiques.
 
-        - title: Hospital network modelling
-          fulltitle: Model of the Hospital Network and Health Trajectories
+        - shorttitle: Hospital network modelling
+          title: Model of the Hospital Network and Health Trajectories
           lab: Barabási lab, Northeastern
           location: Boston
           dates: 2017
           duration: three months
           supervisors: Marc Santolini, Amar Dhand, Sean Cornelius, Albert-László Barabási
-          file: https://fabrice.lecuyer.me/public/pdf/Lecuyer_2017_Hospital-network-model.pdf
+          link: https://fabrice.lecuyer.me/public/pdf/Lecuyer_2017_Hospital-network-model.pdf
           description: >
             Model health trajectories based on millions of hospital admissions. Manipulate different models of mobility such as gravity
             or radiation, and compare them to census data. Study the correlation between social groups and specific diseases.
+          fr:
+            shorttitle: Modélisation d'un réseau hospitalier
+            lab: Barabási lab, Northeastern University
+            location: Boston
+            dates: 2017
+            duration: trois mois
+            supervisors: Marc Santolini, Amar Dhand, Sean Cornelius, Albert-László Barabási
+            link: https://fabrice.lecuyer.me/public/pdf/Lecuyer_2017_Hospital-network-model.pdf
+            description: >
+                Modéliser les trajectoires hospitalières à partir des données issues de millions d'hospitalisations.
+                Manipuler différents modèles de mobilité comme la gravité ou la radiation, et les comparer aux données officielles des recensements.
+                Étudier la corrélation entre les groupes démographiques et certaines maladies.
 
         - title: Disability communication software
           lab: project with ten Master students
@@ -211,18 +253,50 @@ data:
           description: >
             Design a communication system for people with paralysis. Program electroencephalography headsets, define fast means
             of expression with linguists. Involve many health professionals and participate in two hackathons.
+          fr:
+            title: Logiciel de communication pour l'aide au handicap
+            lab: avec dix élèves de Master
+            location: Lyon
+            dates: 2016
+            duration: un an
+            description: >
+                Concevoir un système de communication pour personnes paralysées. Programmer un casque d'électro-encéphalographie,
+                définir des moyens d'expression rapide en collaboration avec des linguistes. Coordonner de nombreuses personnes
+                du milieu médical et participer à deux hackathons.
 
-        - title: Biological regulatory networks
-          fulltitle: Introduction de données quantitatives dans la modélisation qualitative des régulations biologiques
+        - shorttitle: Biological regulatory networks
+          title: Introduction de données quantitatives dans la modélisation qualitative des régulations biologiques
           lab: Institute in Cybernetic
           location: Nantes
           dates: 2016
           duration: two months
           supervisors: Olivier Roux
-          file: https://fabrice.lecuyer.me/public/pdf/Lecuyer_2016_Reseaux-regulation-biologique.pdf
+          link: https://fabrice.lecuyer.me/public/pdf/Lecuyer_2016_Reseaux-regulation-biologique.pdf
           description: >
             Analyse gene interaction networks and theoretical inference graphs. Parse real data about protein activation
             and inhibition, simulate the behaviour of multi-genes systems.
+          fr:
+            shorttitle: Réseaux de régulation biologique
+            lab: Institut de Cybernétique
+            location: Nantes
+            dates: 2016
+            duration: deux mois
+            supervisors: Olivier Roux
+            link: https://fabrice.lecuyer.me/public/pdf/Lecuyer_2016_Reseaux-regulation-biologique.pdf
+            description: >
+                Analyser le réseau d'interaction des gènes et les graphes d'inférence théoriques.
+                Organiser des données réelles sur les activations et inhibitions de protéines.
+                Simuler le comportement d'un système impliquant plusieurs gènes.
+
+        - title: Web Network Simulation
+          display: False
+          lab: Lycée Saint-Louis
+          location: Paris
+          dates: 2014
+          duration: one year
+          description: >
+            Use graph theory to model a computer network and its resilience under perturbation. Perform several oral presentations.
+
 
     # % \cventry{2014\\one year}{Web Network Simulation}{}{Paris}{project during \textit{Classes préparatoires}
     # % Use graph theory to model a computer network and its resilience under perturbation. Perform several oral presentations.
@@ -235,35 +309,56 @@ data:
           location: Paris
           dates: 2021--2023
           description: Meet with the direction of the lab to work on administrative and scientific issues that PhD students face.
+          fr:
+            title: Membre du Conseil des doctorats
+            description: >
+                Réunions mensuelles avec la direction du laboratoire pour travailler sur les difficultés administratives et
+                scientifiques que rencontrent les personnes en thèse.
 
         - title: Teaching assistant
           firm: Sorbonne Université
           location: Paris
           dates: 2020--2023
           description: >
-            - Algorithmics: complexity, iteration and recursion, binary trees, graphs.
-            - Python101: learn mathematical programming using a restricted version of Python.
+            Algorithmics (complexity, iteration and recursion, binary trees, graphs),
+            programming (learn mathematical programming using a restricted version of Python).
+          fr:
+              title: Enseignement en monitorat
+              description: >
+                Algorithmique (complexité, itération et récursion, arbres binaires, graphes),
+                programmation (code mathématique enseigné sur une version restreinte de Python).
 
         - title: Oral examiner in theoretical physics
           firm: Prépa CPE Chartreux
           location: Lyon
           dates: 2019--2020
+          fr:
+              title: Colles de physique en PCSI/PSI
 
         - title: Frontend Software Developer
           firm: Carsync Fleet Management, Vispiron GmbH
           location: Munich
           dates: 2017--2018
           description: Develop a new Angular2 product interface with a team of full-time developers.
+          fr:
+            title: Développeur Frontend
+            firm: gestion de flotte Carsync, Vispiron GmbH
+            description: Développer un nouveau produit sous Angular2 avec une équipe de développeurs et développeuses.
 
         - title: Web developer freelance
           firm: online game Terre de Feu
           dates: 2009--2013
           description: Design and develop backend and frontend from scratch. Manage a community of hundreds of players.
+          fr:
+            title: Développeur web en freelance
+            firm: jeu en ligne Terre de Feu
+            description: Concevoir et programmer l'entierté du backend et du frontend. Animer une communauté de centaines de joueurs et joueuses.
 
     # ------------------------- awards -------------------------
     # ------------------------- skills -------------------------
     skills:
         - title: Computer
+          etc: True
           strong:
               - c++
               - python
@@ -275,8 +370,8 @@ data:
               - php
               - git
               - c
-              - \LaTeX
           weak:
+              - \LaTeX
               - caml
               - linux
               - excel
@@ -291,12 +386,13 @@ data:
               - German (advanced c1)
               - Spanish (intermediate b2)
           fr:
+              title: Langues
               strong:
                   - français (langue natale)
                   - anglais (bilingue c2)
               weak:
-                  - allemand (fluide c1)
-                  - espagnol (avancé b2)
+                  - allemand (c1)
+                  - espagnol (b2)
 
         - title: Music
           weak:
@@ -311,6 +407,7 @@ data:
                   - altiste, accordéoniste
 
         - title: Interests
+          etc: True
           weak:
               - sustainability
               - international relations

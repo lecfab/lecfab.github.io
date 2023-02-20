@@ -1,0 +1,42 @@
+# Dependencies
+# markdown:         redcarpet
+# highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Fabrice Lécuyer
+#tagline:          'A Jekyll theme'
+description:      'PhD student in Complex Networks at LIP6 Sorbonne'
+url:              https://fabrice.lecuyer.me/
+baseurl:          "/"
+#paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/lecfab
+
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Fabrice Lécuyer
+  url:               http://fabrice.lecuyer.me
+  email:             fabrice.lecuyer@lip6.fr
+  emailProtected:    fab****.lec****@lip6.fr
+  img:               /public/photoMoi.jpg
+  cv:                /public/Lecuyer_CV_2022.pdf
+
+# Gems
+plugins:
+ # - jekyll-paginate
+  - jekyll-gist

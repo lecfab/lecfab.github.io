@@ -21,20 +21,12 @@ Feel free to contact me by email!
 
 ## Research reports
 {% assign internships=site.data.research %}
-{% for internship in internships | where_exp: "item", "item.file != empty" %}
-{% if internship.file %}
-*  [_{{internship.title}}_]({{internship.file}}), {{internship.dates}}.
+{% for internship in internships | where_exp: "item", "item.link != empty" %}
+{% if internship.link %}
+*  [_{{internship.title}}_]({{internship.link}}), {{internship.dates}}.
 Internship in {{internship.location}} with {{internship.supervisors}}.
 {% endif %}
 {% endfor %}
-
-ok
-
-* [_Community detection in fine-grained dynamical networks_](/public/pdf/Lecuyer_2020_Dynamical-community-detection.pdf). Fabrice Lécuyer, Rémy Cazabet (Internship in Lyon, 2020)
-
-* [_Model of the Hospital Network and Health Trajectories_](/public/pdf/Lecuyer_2017_Hospital-network-model.pdf). Fabrice Lécuyer, Marc Santolini, Amar Dhand, Sean Cornelius, Albert-László Barabási (Internship in Boston, 2017)
-
-* [_Introduction de données quantitatives dans la modélisation qualitative des régulations biologiques_](/public/pdf/Lecuyer_2016_Reseaux-regulation-biologique.pdf). Fabrice Lécuyer, Olivier Roux (Internship in Nantes, 2016)
 
 
 ## Teaching
