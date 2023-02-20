@@ -304,6 +304,17 @@ data:
 
     # ------------------------- work -------------------------
     work:
+        - title: Volunteer for solar energy
+          firm: Enercitif
+          location: Paris
+          dates: 2022--...
+          description: Help the NGO that installs solar pannels on parisian roofs to monitor operations and solicit new surfaces.
+          fr:
+            title: Bénévole pour l'énergie solaire
+            description: >
+                Participer à l'association qui installe des panneaux solaires sur les toits de Paris.
+                Surveiller les centrales en exploitation et chercher de nouvelles surfaces auprès des acteurs privés ou publics.
+
         - title: PhD students representative
           firm: LIP6
           location: Paris
