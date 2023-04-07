@@ -65,24 +65,12 @@ data:
         #   fr:
         #       title: "Papier du futur"
         #       comment: Sera envoyé à DAWAK
-        # - title: Quality certification of vertex cover heuristics on real-world networks
-        #   authors: Fabrice Lécuyer, Lionel Tabourier, Clémence Magnien
-        #   published: to be submitted
-        #   year: 2023
-        #   fr:
-        #     published: en cours de soumission
-
-        - title: Quality certification of vertex cover heuristics on real-world networks
-          authors: Fabrice Lécuyer
+        - title: Vertex cover quality certification on real-world networks
+          authors: Fabrice Lécuyer, Lionel Tabourier, Clémence Magnien
           published: to be submitted
           year: 2023
-          link: https://fabrice.lecuyer.me/public/pdf/Lecuyer_2023_FRCCS.pdf
-          comment: >
-            Presented at: [FRCCS'23](https://iutdijon.u-bourgogne.fr/ccs-france/) conference.
           fr:
-              published: en cours de soumission
-              comment: >
-                Présenté à la conférence [FRCCS'23](https://iutdijon.u-bourgogne.fr/ccs-france/).
+            published: en cours de soumission
 
         - title: Charting mobility patterns in the scientific knowledge landscape
           authors: Chakresh Kumar Singh, Liubov Tupikina, Fabrice Lécuyer, Michele Starnini, Marc Santolini
@@ -91,17 +79,6 @@ data:
           link: https://arxiv.org/abs/2302.13054
           fr:
               published: soumis
-
-        - title: Quality certification of heuristics on real-world graphs
-          authors: Fabrice Lécuyer
-          published: unpublished
-          year: 2023
-          link: https://fabrice.lecuyer.me/public/pdf/Lecuyer_2022_Quality-certification.pdf
-          comment: "Presented at: [JGA'22](https://jga2022.sciencesconf.org)."
-          fr:
-              title: Certifier la qualité d’une heuristique sur des graphes réels
-              published: non publié
-              comment: "Présenté à [JGA'22](https://jga2022.sciencesconf.org) [[résumé](https://fabrice.lecuyer.me/public/pdf/Lecuyer_2022_JGA.pdf)]."
 
         - title: Tailored vertex ordering for faster triangle listing in large graphs
           authors: Fabrice Lécuyer, Louis Jachiet, Clémence Magnien, Lionel Tabourier
@@ -116,6 +93,22 @@ data:
               comment: >
                 Présenté à la conférence [FRCCS'22](https://iscpif.fr/frccs2022/) [[résumé](https://fabrice.lecuyer.me/public/pdf/Lecuyer_2022_FRCCS.pdf)]
                 et au workshop [MLG](http://www.mlgworkshop.org/) de KDD'22.
+
+        - title: Quality certification of heuristics on real-world graphs
+          authors: Fabrice Lécuyer
+          published: unpublished
+          year: 2022
+          link: https://fabrice.lecuyer.me/public/pdf/Lecuyer_2022_Quality-certification.pdf
+          comment: >
+                Presented at: [JGA'22](https://jga2022.sciencesconf.org) workshop,
+                [FRCCS'23](https://iutdijon.u-bourgogne.fr/ccs-france/) conference [[abstract](https://fabrice.lecuyer.me/public/pdf/Lecuyer_2023_FRCCS.pdf)].
+          fr:
+              title: Certifier la qualité d’une heuristique sur des graphes réels
+              published: non publié
+              comment: >
+                Présenté à [JGA'22](https://jga2022.sciencesconf.org) [[résumé](https://fabrice.lecuyer.me/public/pdf/Lecuyer_2022_JGA.pdf)]
+                et à la conférence [FRCCS'23](https://iutdijon.u-bourgogne.fr/ccs-france/).
+
 
         - title: "[Replication] Speedup Graph Processing by Graph Ordering"
           authors: Fabrice Lécuyer, Maximilien Danisch, Lionel Tabourier
