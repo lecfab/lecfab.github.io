@@ -74,14 +74,23 @@ data:
 
         - title: Addressing the vertex cover problem on real-world networks
           authors: Fabrice Lécuyer
-          published: unpublished
+          # published: unpublished
           year: 2023
+          link: https://fabrice.lecuyer.me/public/pdf/Lecuyer_2023_FRCCS.pdf
           comment: >
-            Presented at: [FRCCS'23](https://iutdijon.u-bourgogne.fr/ccs-france/) conference [[abstract](https://fabrice.lecuyer.me/public/pdf/Lecuyer_2023_FRCCS.pdf)].
+            Presented at: [FRCCS'23](https://iutdijon.u-bourgogne.fr/ccs-france/) conference.
           fr:
-              published: non publié
+              # published: non publié
               comment: >
                 Présenté à la conférence [FRCCS'23](https://iutdijon.u-bourgogne.fr/ccs-france/).
+
+        - title: Charting mobility patterns in the scientific knowledge landscape
+          authors: Chakresh Kumar Singh, Liubov Tupikina, Fabrice Lécuyer, Michele Starnini, Marc Santolini
+          published: submitted
+          year: 2023
+          link: https://arxiv.org/abs/2302.13054
+          fr:
+              published: soumis
 
         - title: Quality certification of heuristics on real-world graphs
           authors: Fabrice Lécuyer
@@ -91,16 +100,8 @@ data:
           comment: "Presented at: [JGA'22](https://jga2022.sciencesconf.org)."
           fr:
               title: Certifier la qualité d’une heuristique sur des graphes réels
-              published: en cours de soumission
+              published: non publié
               comment: "Présenté à [JGA'22](https://jga2022.sciencesconf.org) [[résumé](https://fabrice.lecuyer.me/public/pdf/Lecuyer_2022_JGA.pdf)]."
-
-        - title: Charting mobility patterns in the scientific knowledge landscape
-          authors: Chakresh Kumar Singh, Liubov Tupikina, Fabrice Lécuyer, Michele Starnini, Marc Santolini
-          published: submitted
-          year: 2023
-          link: https://arxiv.org/abs/2302.13054
-          fr:
-              published: soumis
 
         - title: Tailored vertex ordering for faster triangle listing in large graphs
           authors: Fabrice Lécuyer, Louis Jachiet, Clémence Magnien, Lionel Tabourier
