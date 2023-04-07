@@ -65,22 +65,22 @@ data:
         #   fr:
         #       title: "Papier du futur"
         #       comment: Sera envoyé à DAWAK
-        - title: Quality certification of vertex cover heuristics on real-world networks
-          authors: Fabrice Lécuyer, Lionel Tabourier, Clémence Magnien
-          published: to be submitted
-          year: 2023
-          fr:
-            published: en cours de soumission
+        # - title: Quality certification of vertex cover heuristics on real-world networks
+        #   authors: Fabrice Lécuyer, Lionel Tabourier, Clémence Magnien
+        #   published: to be submitted
+        #   year: 2023
+        #   fr:
+        #     published: en cours de soumission
 
-        - title: Addressing the vertex cover problem on real-world networks
+        - title: Quality certification of vertex cover heuristics on real-world networks
           authors: Fabrice Lécuyer
-          # published: unpublished
+          published: to be submitted
           year: 2023
           link: https://fabrice.lecuyer.me/public/pdf/Lecuyer_2023_FRCCS.pdf
           comment: >
             Presented at: [FRCCS'23](https://iutdijon.u-bourgogne.fr/ccs-france/) conference.
           fr:
-              # published: non publié
+              published: en cours de soumission
               comment: >
                 Présenté à la conférence [FRCCS'23](https://iutdijon.u-bourgogne.fr/ccs-france/).
 
