@@ -65,16 +65,23 @@ data:
         #   fr:
         #       title: "Papier du futur"
         #       comment: Sera envoyé à DAWAK
-        - title: 'Seminar: Ordering nodes to scale to massive real-world networks'
+        - title: Quality certification of vertex cover heuristics on real-world networks
+          authors: Fabrice Lécuyer, Lionel Tabourier, Clémence Magnien
+          published: to be submitted
+          year: 2023
+          fr:
+            published: en cours de soumission
+
+        - title: Addressing the vertex cover problem on real-world networks
+          authors: Fabrice Lécuyer
+          published: unpublished
           year: 2023
           comment: >
-            [Invitation](https://www.di.unimi.it/ecm/home/aggiornamenti-e-archivi/tutte-le-notizie/content/ordering-nodes-to-scale-to-massive-real-world-networks.0000.UNIMIDIRE-102347)
-            from the Lab for Web Algorithmics, University of Milan, Italy.
+            Presented at: [FRCCS'23](https://iutdijon.u-bourgogne.fr/ccs-france/) conference [[abstract](https://fabrice.lecuyer.me/public/pdf/Lecuyer_2023_FRCCS.pdf)].
           fr:
-            title: "Séminaire : Ordonner les nœuds pour passer à l'échelle sur les graphes réels"
-            comment: >
-                [Invitation](https://www.di.unimi.it/ecm/home/aggiornamenti-e-archivi/tutte-le-notizie/content/ordering-nodes-to-scale-to-massive-real-world-networks.0000.UNIMIDIRE-102347)
-                par le Laboratoire d'Algorithmique du Web, Université de Milan, Italie.
+              published: non publié
+              comment: >
+                Présenté à la conférence [FRCCS'23](https://iutdijon.u-bourgogne.fr/ccs-france/).
 
         - title: Quality certification of heuristics on real-world graphs
           authors: Fabrice Lécuyer
@@ -84,16 +91,16 @@ data:
           comment: "Presented at: [JGA'22](https://jga2022.sciencesconf.org)."
           fr:
               title: Certifier la qualité d’une heuristique sur des graphes réels
-              published: non publié
+              published: en cours de soumission
               comment: "Présenté à [JGA'22](https://jga2022.sciencesconf.org) [[résumé](https://fabrice.lecuyer.me/public/pdf/Lecuyer_2022_JGA.pdf)]."
 
         - title: Charting mobility patterns in the scientific knowledge landscape
           authors: Chakresh Kumar Singh, Liubov Tupikina, Fabrice Lécuyer, Michele Starnini, Marc Santolini
-          published: unpublished
+          published: submitted
           year: 2023
           link: https://arxiv.org/abs/2302.13054
           fr:
-              published: non publié
+              published: soumis
 
         - title: Tailored vertex ordering for faster triangle listing in large graphs
           authors: Fabrice Lécuyer, Louis Jachiet, Clémence Magnien, Lionel Tabourier
