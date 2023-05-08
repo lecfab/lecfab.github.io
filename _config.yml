@@ -60,17 +60,29 @@ data:
     academia:
         # - title: "Future paper"
         #   year: 2024
-        #   authors: Mehdi Naima, Fabrice Lécuyer
-        #   comment: will be sent to the DAWAK conference
+        #   authors: Fabrice Lécuyer, collaborators
+        #   comment: will be sent to the CONF conference
         #   fr:
         #       title: "Papier du futur"
-        #       comment: Sera envoyé à DAWAK
+        #       comment: Sera envoyé à CONF
+
+        -   title: 'Seminars: Ordering nodes to scale to massive real-world networks'
+            year: 2023
+            comment: >
+                January [invitation](https://www.di.unimi.it/ecm/home/aggiornamenti-e-archivi/tutte-le-notizie/content/ordering-nodes-to-scale-to-massive-real-world-networks.0000.UNIMIDIRE-102347)
+                from the [Lab for Web Algorithmics](https://law.di.unimi.it) (University of Milan, Italy); May invitation from the [Systopia](https://systopia.cs.ubc.ca) lab (University of British Columbia, Canada).
+            fr:
+                title: "Séminaires : Ordonner les nœuds pour passer à l'échelle sur les graphes réels"
+                comment: >
+                    [Invitation](https://www.di.unimi.it/ecm/home/aggiornamenti-e-archivi/tutte-le-notizie/content/ordering-nodes-to-scale-to-massive-real-world-networks.0000.UNIMIDIRE-102347) en janvier
+                    par le [Laboratoire d'Algorithmique du Web](https://law.di.unimi.it) (Université de Milan, Italie), et invitation en mai par [Systopia](https://systopia.cs.ubc.ca) (UBC, Canada).
+
         - title: Vertex cover quality certification on real-world networks
           authors: Fabrice Lécuyer, Lionel Tabourier, Clémence Magnien
-          published: to be submitted
+          published: submitted
           year: 2023
           fr:
-            published: en cours de soumission
+            published: soumis
 
         - title: Charting mobility patterns in the scientific knowledge landscape
           authors: Chakresh Kumar Singh, Liubov Tupikina, Fabrice Lécuyer, Michele Starnini, Marc Santolini
