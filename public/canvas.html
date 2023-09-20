@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<body onload="randomise_positions()">
+<h1>Polompala</h1>
+
+<canvas id="myCanvas" width="500" height="500" style="display:block;margin:0 auto;border:1px solid grey;background:#00f"></canvas>
+
+<form name="params" onchange="draw_lines()">
+    <button type="button" onclick="randomise_positions()">Randomise positions</button>
+    <button type="button" onclick="draw_lines()">Draw again</button>
+    <input type="reset" value="Default parameters">
+
+    <h3>Colours</h3>
+    <label for="background">background</label>
+        <input type="text" name="background" id="background" value="white">
+    <label for="colour1">colour1</label>
+        <input type="text" name="colour1" id="colour1" value="#223">
+    <label for="colour2">colour2</label>
+        <input type="text" name="colour2" id="colour2" value="#a00a">
+
+    <h3>First lines</h3>
+    <label for="lines1">lines1</label>
+        <input type="number" name="lines1" id="lines1" value="7">
+    <label for="thick1">thick1</label>
+        <input type="number" name="thick1" id="thick1" value="30">
+    <label for="space1">space1</label>
+        <input type="number" name="space1" id="space1" value="60">
+
+    <h3>Second lines</h3>
+    <label for="lines2">lines2</label>
+        <input type="number" name="lines2" id="lines2" value="13">
+    <label for="thick2">thick2</label>
+        <input type="number" name="thick2" id="thick2" value="30">
+    <label for="space2">space2</label>
+        <input type="number" name="space2" id="space2" value="60">
+
+    <h3>Options</h3>
+    <label for="overlap">overlap</label>
+    <select id="overlap" name="overlap">
+        <option value="none">none</option>
+        <option value="cross">cross</option>
+        <option value="xor">xor</option>
+    </select><br>
+
+    <label for="sep1a">sep1a</label><input type="checkbox" name="sep1a" id="sep1a">
+    <label for="sep1b">sep1b</label><input type="checkbox" name="sep1b" id="sep1b" checked>
+    <label for="sep1c">sep1c</label><input type="checkbox" name="sep1c" id="sep1c" checked>
+    <label for="sep1d">sep1d</label><input type="checkbox" name="sep1d" id="sep1d">
+    <br>
+    <label for="sep2a">sep2a</label><input type="checkbox" name="sep2a" id="sep2a">
+    <label for="sep2b">sep2b</label><input type="checkbox" name="sep2b" id="sep2b" checked>
+    <label for="sep2c">sep2c</label><input type="checkbox" name="sep2c" id="sep2c" checked>
+    <label for="sep2d">sep2d</label><input type="checkbox" name="sep2d" id="sep2d">
+
+    <h3>Positions</h3>
+    <label for="x1a">x1a</label><input type="number" name="x1a" id="x1a">
+    <label for="y1a">y1a</label><input type="number" name="y1a" id="y1a"><br>
+    <label for="x1b">x1b</label><input type="number" name="x1b" id="x1b">
+    <label for="y1b">y1b</label><input type="number" name="y1b" id="y1b"><br>
+    <label for="x1c">x1c</label><input type="number" name="x1c" id="x1c">
+    <label for="y1c">y1c</label><input type="number" name="y1c" id="y1c"><br>
+    <label for="x1d">x1d</label><input type="number" name="x1d" id="x1d">
+    <label for="y1d">y1d</label><input type="number" name="y1d" id="y1d"><br>
+    <br>
+    <label for="x2a">x2a</label><input type="number" name="x2a" id="x2a">
+    <label for="y2a">y2a</label><input type="number" name="y2a" id="y2a"><br>
+    <label for="x2b">x2b</label><input type="number" name="x2b" id="x2b">
+    <label for="y2b">y2b</label><input type="number" name="y2b" id="y2b"><br>
+    <label for="x2c">x2c</label><input type="number" name="x2c" id="x2c">
+    <label for="y2c">y2c</label><input type="number" name="y2c" id="y2c"><br>
+    <label for="x2d">x2d</label><input type="number" name="x2d" id="x2d">
+    <label for="y2d">y2d</label><input type="number" name="y2d" id="y2d"><br>
+</form>
+
+<script>
+const w=500, h=500, z=5;
+const c = document.getElementById("myCanvas");
+const ctx = c.getContext("2d");
+c.width = w;
+c.height = h;
+
+function p(name) {
+    let e = document.forms.params.elements[name];
+    if(e.type == "checkbox") return e.checked;
+    else return e.value;
+}
+
+function set(name, val) {
+    document.forms.params.elements[name].value = val;
+}
+
+var x1a, y1a, x1b, y1b, x1c, y1c, x1d, y1d;
+var x2a, y2a, x2b, y2b, x2c, y2c, x2d, y2d;
+function my_rand(max) {
+    return Math.round(Math.random()*w);
+}
+function randomise_positions() {
+    set("x1a", my_rand(w));    set("y1a", 0);
+    set("x1b", my_rand(w));    set("y1b", my_rand(h));
+    set("x1c", my_rand(w));    set("y1c", my_rand(h));
+    set("x1d", my_rand(w));    set("y1d", my_rand(h));
+
+    set("x2a", w);             set("y2a", my_rand(h));
+    set("x2b", my_rand(w));    set("y2b", my_rand(h));
+    set("x2c", my_rand(w));    set("y2c", my_rand(h));
+    set("x2d", my_rand(w));    set("y2d", my_rand(h));
+
+    draw_lines();
+}
+
+var debug=0;        console.log(debug++)
+//console.log(debug++)
+
+function update_variables() {
+    lines1 = 1*p("lines1");     thick1 = 1*p("thick1");     space1 = 1*p("space1");
+    lines2 = 1*p("lines2");     thick2 = 1*p("thick2");     space2 = 1*p("space2");
+    sep1a = p("sep1a");     sep1b = p("sep1b");     sep1c = p("sep1c");     sep1d = p("sep1d");
+    sep2a = p("sep2a");     sep2b = p("sep2b");     sep2c = p("sep2c");     sep2d = p("sep2d");
+    x1a = 1*p("x1a");     y1a = 1*p("y1a");
+    x1b = 1*p("x1b");     y1b = 1*p("y1b");
+    x1c = 1*p("x1c");     y1c = 1*p("y1c");
+    x1d = 1*p("x1d");     y1d = 1*p("y1d");
+    x2a = 1*p("x2a");     y2a = 1*p("y2a");
+    x2b = 1*p("x2b");     y2b = 1*p("y2b");
+    x2c = 1*p("x2c");     y2c = 1*p("y2c");
+    x2d = 1*p("x2d");     y2d = 1*p("y2d");
+}
+
+var lines1, thick1, space1;
+var lines2, thick2, space2;
+var sep1a=false, sep1b=true, sep1c=true, sep1d=false;
+var sep2a=true, sep2b=true, sep2c=true, sep2d=false;
+var overlap; // = "cross"; "xor"; "none";
+function draw_lines() {
+    update_variables();
+    ctx.clearRect(0, 0, w, h);
+    ctx.globalCompositeOperation='source-over';
+
+    for(let i = -lines1/2; i < lines1/2; i++) {
+        ctx.beginPath();
+
+        let x = i*space1, y = i*space1;
+
+        ctx.moveTo(x1a + x*sep1a, y1a - y*sep1a);
+        ctx.bezierCurveTo(
+            x1b + x*sep1b, y1b - y*sep1b,
+            x1c + x*sep1c, y1c - y*sep1c,
+            x1d + x*sep1d, y1d - y*sep1d);
+
+        x += thick1; y += thick1;
+        ctx.lineTo(x1d + x*sep1d, y1d - y*sep1d);
+        ctx.bezierCurveTo(
+            x1c + x*sep1c, y1c - y*sep1c,
+            x1b + x*sep1b, y1b - y*sep1b,
+            x1a + x*sep1a, y1a - y*sep1a);
+
+        ctx.fillStyle = p("colour1");
+        ctx.fill();
+    }
+
+    for(let i = -lines2/2; i < lines2/2; i++) {
+        ctx.globalCompositeOperation = 'source-over';
+        if(p("overlap") == "cross" && (i + lines2) % 2 < 1)
+            ctx.globalCompositeOperation = 'destination-over';
+        else if(p("overlap") == "xor")
+            ctx.globalCompositeOperation = 'xor';
+
+        ctx.beginPath();
+
+        let x = i*space2, y = i*space2;
+        ctx.moveTo(x2a + x*sep2a, y2a - y*sep2a);
+        ctx.bezierCurveTo(
+            x2b + x*sep2b, y2b - y*sep2b,
+            x2c + x*sep2c, y2c - y*sep2c,
+            x2d + x*sep2d, y2d - y*sep2d);
+
+        x += thick2; y += thick2;
+        ctx.lineTo(x2d + x*sep2d, y2d - y*sep2d);
+        ctx.bezierCurveTo(
+            x2c + x*sep2c, y2c - y*sep2c,
+            x2b + x*sep2b, y2b - y*sep2b,
+            x2a + x*sep2a, y2a - y*sep2a);
+
+        ctx.fillStyle = p("colour2");
+        ctx.strokeStyle = p("colour2");
+        ctx.fill();
+    }
+    ctx.globalCompositeOperation='destination-over';
+    ctx.fillStyle = p("background");
+    ctx.fillRect(0, 0, w, h);
+}
+
+
+
+</script>
+
+</body>
+</html>
