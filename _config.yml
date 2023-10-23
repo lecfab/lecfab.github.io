@@ -65,13 +65,6 @@ data:
         #   fr:
         #       title: "Papier du futur"
         #       comment: Sera envoyé à CONF
-        - title: "Thesis manuscript: Ordering nodes to scale to large real-world networks"
-          authors: Fabrice Lécuyer
-          year: 2023
-          link: https://fabrice.lecuyer.me/public/pdf/Lecuyer_2023_Thesis.pdf
-          fr:
-              title: "Manuscrit de thèse : Ordonner les nœuds pour passer à l'échelle sur les grands réseaux réels"
-
         -   title: 'Seminars: Ordering nodes to scale to massive real-world networks'
             year: 2023
             comment: >
@@ -199,6 +192,7 @@ data:
           display: False
           dates: 2020 -- 2023
           supervisors: "[Lionel Tabourier](http://lioneltabourier.fr/reseaux.html) & [Clémence Magnien](https://lip6.fr/Clemence.Magnien/)"
+          link: https://fabrice.lecuyer.me/public/pdf/Lecuyer_2023_Thesis.pdf
           description: >
             As we have access to arbitrarily big networks collected from various fields (biology, social ties, trade, web),
             graph algorithms can only scale if they have quasi-linear complexity. Ordering the nodes of the graph according
