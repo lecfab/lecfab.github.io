@@ -65,12 +65,12 @@ data:
         #   fr:
         #       title: "Papier du futur"
         #       comment: Sera envoyé à CONF
-        - title: Thesis manuscript: Ordering nodes to scale to large real-world networks
+        - title: "Thesis manuscript: Ordering nodes to scale to large real-world networks"
           authors: Fabrice Lécuyer
           year: 2023
           link: https://fabrice.lecuyer.me/public/pdf/Lecuyer_2023_Thesis.pdf
           fr:
-              title: Manuscrit de thèse : Ordonner les nœuds pour passer à l'échelle sur les grands réseaux réels
+              title: "Manuscrit de thèse : Ordonner les nœuds pour passer à l'échelle sur les grands réseaux réels"
 
         -   title: 'Seminars: Ordering nodes to scale to massive real-world networks'
             year: 2023
