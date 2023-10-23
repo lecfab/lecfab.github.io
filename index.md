@@ -5,8 +5,9 @@ title: Home
 
 ## Overview
 
-I am a PhD student in the computer science lab [LIP6](https://www.lip6.fr/) of Sorbonne University in Paris, under the supervision of Lionel Tabourier and Clémence Magnien in the [Complex Networks](https://www.complexnetworks.fr/) team.
-I'm interested in scalable graph algorithms applied on real-world datasets, with a focus on finding node orderings that improve specific algorithms in practice. I also work on citation networks and scientific trajectories as a visiting student in a [data analysis lab](https://interactiondatalab.com/). Before that, I graduated from [ENS Lyon](http://www.ens-lyon.fr/LIP/) in computer sciences and complex systems.
+I am a PhD graduate in computer sciences, currently searching for a postdoc where to apply data analysis or algorithmic concepts to climate change research and mitigation.
+I defended my thesis in the computer science lab [LIP6](https://www.lip6.fr/) of Sorbonne University in Paris, under the supervision of Lionel Tabourier and Clémence Magnien in the [Complex Networks](https://www.complexnetworks.fr/) team.
+It focussed on scalable graph algorithms applied on real-world datasets, specifically on finding node orderings that improve specific algorithms in practice. I also worked on citation networks and scientific trajectories as a visiting student in a [data analysis lab](https://interactiondatalab.com/). Before that, I graduated from [ENS Lyon](http://www.ens-lyon.fr/LIP/) in computer sciences and complex systems where I did research on dynamic networks.
 
 Feel free to contact me by email!
 
@@ -40,4 +41,4 @@ Internship in {{internship.location}} with {{internship.supervisors}}.
 * Instrumental music: piano playing and teaching, accordion, viola, classical choir.
 * Programming: developed a PHP/SQL online game and worked as a frontend developer for a car-fleet management system.
 * Linguistics
-* Sustainability: renewable energy, local food networks, low consumption.
+* Sustainability: renewable energy, local food networks, low consumption. Volunteer in the NGO that installs solar panels on Parisian roofs to monitor operations and solicit new surfaces.
