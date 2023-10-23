@@ -38,7 +38,7 @@ Internship in {{internship.location}} with {{internship.supervisors}}.
 
 ## Other interests
 
+* Sustainability: renewable energy, local food networks, low consumption. Volunteer in the NGO that installs solar panels on Parisian roofs to monitor operations and solicit new surfaces.
 * Instrumental music: piano playing and teaching, accordion, viola, classical choir.
 * Programming: developed a PHP/SQL online game and worked as a frontend developer for a car-fleet management system.
 * Linguistics
-* Sustainability: renewable energy, local food networks, low consumption. Volunteer in the NGO that installs solar panels on Parisian roofs to monitor operations and solicit new surfaces.
