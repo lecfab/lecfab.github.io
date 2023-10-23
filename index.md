@@ -25,7 +25,7 @@ Feel free to contact me by email!
 {% for internship in internships | where_exp: "item", "item.link != empty" %}
 {% if internship.link %}
 *  [_{{internship.title}}_]({{internship.link}}), {{internship.dates}}.
-Internship in {{internship.location}} with {{internship.supervisors}}.
+{{internship.type}} in {{internship.location}} with {{internship.supervisors}}.
 {% endif %}
 {% endfor %}
 

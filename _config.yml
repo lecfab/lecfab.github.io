@@ -190,6 +190,7 @@ data:
         - title: Ordering nodes to scale to massive real-world networks
           type: PhD project
           display: False
+          location: Paris
           dates: 2020 -- 2023
           supervisors: "[Lionel Tabourier](http://lioneltabourier.fr/reseaux.html) & [Clémence Magnien](https://lip6.fr/Clemence.Magnien/)"
           link: https://fabrice.lecuyer.me/public/pdf/Lecuyer_2023_Thesis.pdf
@@ -214,6 +215,7 @@ data:
 
         - shorttitle: Dynamic community detection
           title: Community detection in fine-grained dynamical networks
+          type: Internship
           lab: Data Science Team, LIRIS
           location: Lyon
           dates: 2020
@@ -225,6 +227,7 @@ data:
             Confront them to various quality functions of the literature. Design scalable methods, test them on real and synthetic datasets.
           fr:
             shorttitle: Détection de communautés temporelles
+            type: Stage
             lab: équipe Data Science, LIRIS
             location: Lyon
             dates: 2020
@@ -237,6 +240,7 @@ data:
 
         - shorttitle: Hospital network modelling
           title: Model of the Hospital Network and Health Trajectories
+          type: Internship
           lab: Barabási lab, Northeastern
           location: Boston
           dates: 2017
@@ -248,6 +252,7 @@ data:
             or radiation, and compare them to census data. Study the correlation between social groups and specific diseases.
           fr:
             shorttitle: Modélisation d'un réseau hospitalier
+            type: Stage
             lab: Barabási lab, Northeastern University
             location: Boston
             dates: 2017
@@ -260,6 +265,7 @@ data:
                 Étudier la corrélation entre les groupes démographiques et certaines maladies.
 
         - title: Disability communication software
+          type: Master project
           lab: project with ten Master students
           location: Lyon
           dates: 2016
@@ -269,6 +275,7 @@ data:
             of expression with linguists. Involve many health professionals and participate in two hackathons.
           fr:
             title: Logiciel de communication pour l'aide au handicap
+            type: Projet de Master
             lab: avec dix élèves de Master
             location: Lyon
             dates: 2016
@@ -280,6 +287,7 @@ data:
 
         - shorttitle: Biological regulatory networks
           title: Introduction de données quantitatives dans la modélisation qualitative des régulations biologiques
+          type: Internship
           lab: Institute in Cybernetic
           location: Nantes
           dates: 2016
@@ -291,6 +299,7 @@ data:
             and inhibition, simulate the behaviour of multi-genes systems.
           fr:
             shorttitle: Réseaux de régulation biologique
+            type: Stage
             lab: Institut de Cybernétique
             location: Nantes
             dates: 2016
@@ -303,6 +312,7 @@ data:
                 Simuler le comportement d'un système impliquant plusieurs gènes.
 
         - title: Web Network Simulation
+          type: Research project
           display: False
           lab: Lycée Saint-Louis
           location: Paris
