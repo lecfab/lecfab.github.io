@@ -50,9 +50,9 @@ data:
         pro: fabrice.lecuyer@lip6.fr
         perso: lecfab@gmx.net
     website: http://fabrice.lecuyer.me
-    title: PhD Student in Complex Networks at LIP6 Sorbonne
+    title: PhD in Computer Sciences and Complex Networks from LIP6 Sorbonne
     fr:
-        title: Doctorant en informatique au LIP6, Sorbonne Université
+        title: Docteur en informatique et système complexes du LIP6, Sorbonne Université
     # photo, CV...
 
 
@@ -191,7 +191,7 @@ data:
         - title: Ordering nodes to scale to massive real-world networks
           type: PhD project
           display: False
-          dates: 2020 -- ongoing
+          dates: 2020 -- 2023
           supervisors: "[Lionel Tabourier](http://lioneltabourier.fr/reseaux.html) & [Clémence Magnien](https://lip6.fr/Clemence.Magnien/)"
           description: >
             As we have access to arbitrarily big networks collected from various fields (biology, social ties, trade, web),
