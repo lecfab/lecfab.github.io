@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            Fabrice Lécuyer
 #tagline:          'A Jekyll theme'
-description:      'PhD graduate in Complex Networks from LIP6 Sorbonne'
+description:      'Postdoctoral researcher in energy transition at PIK'
 url:              https://fabrice.lecuyer.me/
 baseurl:          "/"
 #paginate:         5
@@ -31,8 +31,8 @@ sass:
 author:
   name:              Fabrice Lécuyer
   url:               http://fabrice.lecuyer.me
-  email:             fabrice.lecuyer@lip6.fr
-  emailProtected:    fab****.lec****@lip6.fr
+  email:             fabrice@lecuyer.me
+  emailProtected:    fab****@lec****.me
   img:               /public/photoMoi.jpg
   cv:                /public/Lecuyer_CV_auto.pdf
 
