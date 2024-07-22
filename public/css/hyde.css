@@ -97,14 +97,14 @@ img.sidebar-nav-item {
     border-radius: 500px;
     max-width: 200px;
     margin: 20px auto;
-    box-shadow: 0 0 50px 5px lightblue;
+    box-shadow: 0 0 20px 5px pink;
     transition: 1s ease;
 }
 
 img.sidebar-nav-item:hover {
     cursor: cell;
     transform: rotate(720deg);
-    box-shadow: 0 0 200px 200px lightblue;
+    box-shadow: 0 0 100px 20px pink;
     transition: .8s ease-in-out;
 }
 
@@ -193,12 +193,12 @@ a.sidebar-nav-item:focus {
 /* Base16 (http://chriskempson.github.io/base16/#default) */
 /* Red */
 .theme-base-08 .sidebar {
-    background-color: #ac4142;
+    background-color: #b25;
 }
 
 .theme-base-08 .content a,
 .theme-base-08 .related-posts li a:hover {
-    color: #ac4142;
+    color: #b25;
 }
 
 /* Orange */
